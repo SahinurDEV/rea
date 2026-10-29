@@ -25,7 +25,7 @@ msgstr "মূল কনটেন্টে যান"
 #: website/public/guides/index.html:124
 #: website/public/guides/javascript/index.html:124
 #: website/public/guides/native/index.html:124
-#: website/public/guides/rl-environments/index.html:122
+#: website/public/guides/rl-environments/index.html:124
 #: website/public/index.html:126 website/public/showcase/aegis/index.html:125
 #: website/public/showcase/ctf/index.html:124
 #: website/public/showcase/dx-ball/index.html:124
@@ -48,7 +48,7 @@ msgstr "শোকেস"
 #: website/public/guides/index.html:125
 #: website/public/guides/javascript/index.html:125
 #: website/public/guides/native/index.html:125
-#: website/public/guides/rl-environments/index.html:123
+#: website/public/guides/rl-environments/index.html:125
 #: website/public/index.html:127 website/public/showcase/aegis/index.html:126
 #: website/public/showcase/ctf/index.html:125
 #: website/public/showcase/dx-ball/index.html:125
@@ -71,7 +71,7 @@ msgstr "ব্লগ"
 #: website/public/guides/index.html:123
 #: website/public/guides/javascript/index.html:123
 #: website/public/guides/native/index.html:123
-#: website/public/guides/rl-environments/index.html:121
+#: website/public/guides/rl-environments/index.html:123
 #: website/public/index.html:125 website/public/showcase/aegis/index.html:124
 #: website/public/showcase/ctf/index.html:123
 #: website/public/showcase/dx-ball/index.html:123
@@ -94,7 +94,7 @@ msgstr "শুরু করুন"
 #: website/public/guides/index.html:126
 #: website/public/guides/javascript/index.html:126
 #: website/public/guides/native/index.html:126
-#: website/public/guides/rl-environments/index.html:124
+#: website/public/guides/rl-environments/index.html:126
 #: website/public/index.html:128 website/public/showcase/aegis/index.html:127
 #: website/public/showcase/ctf/index.html:126
 #: website/public/showcase/dx-ball/index.html:126
@@ -161,12 +161,12 @@ msgstr "লিখেছেন N0zoM1z0 · 10 অক্টোবর 2026"
 #: website/public/examples/dino-lab/index.html:478
 #: website/public/faq/index.html:576
 #: website/public/first-investigation/index.html:537
-#: website/public/get-started/index.html:1820
+#: website/public/get-started/index.html:1851
 #: website/public/guides/browser/index.html:510
 #: website/public/guides/index.html:304
-#: website/public/guides/javascript/index.html:506
-#: website/public/guides/native/index.html:512
-#: website/public/guides/rl-environments/index.html:499
+#: website/public/guides/javascript/index.html:514
+#: website/public/guides/native/index.html:514
+#: website/public/guides/rl-environments/index.html:501
 #: website/public/index.html:1306 website/public/showcase/aegis/index.html:811
 #: website/public/showcase/ctf/index.html:780
 #: website/public/showcase/dx-ball/index.html:788
@@ -184,12 +184,12 @@ msgstr "সোর্স"
 #: website/public/examples/dino-lab/index.html:479
 #: website/public/faq/index.html:577
 #: website/public/first-investigation/index.html:538
-#: website/public/get-started/index.html:1821
+#: website/public/get-started/index.html:1852
 #: website/public/guides/browser/index.html:511
 #: website/public/guides/index.html:305
-#: website/public/guides/javascript/index.html:507
-#: website/public/guides/native/index.html:513
-#: website/public/guides/rl-environments/index.html:500
+#: website/public/guides/javascript/index.html:515
+#: website/public/guides/native/index.html:515
+#: website/public/guides/rl-environments/index.html:502
 #: website/public/index.html:1307 website/public/showcase/aegis/index.html:812
 #: website/public/showcase/ctf/index.html:781
 #: website/public/showcase/dx-ball/index.html:789
@@ -207,12 +207,12 @@ msgstr "MIT license"
 #: website/public/examples/dino-lab/index.html:480
 #: website/public/faq/index.html:578
 #: website/public/first-investigation/index.html:539
-#: website/public/get-started/index.html:1822
+#: website/public/get-started/index.html:1853
 #: website/public/guides/browser/index.html:512
 #: website/public/guides/index.html:306
-#: website/public/guides/javascript/index.html:508
-#: website/public/guides/native/index.html:514
-#: website/public/guides/rl-environments/index.html:501
+#: website/public/guides/javascript/index.html:516
+#: website/public/guides/native/index.html:516
+#: website/public/guides/rl-environments/index.html:503
 #: website/public/index.html:1308 website/public/showcase/aegis/index.html:813
 #: website/public/showcase/ctf/index.html:782
 #: website/public/showcase/dx-ball/index.html:790
@@ -230,12 +230,12 @@ msgstr "কমিউনিটিতে যোগ দিন"
 #: website/public/examples/dino-lab/index.html:481
 #: website/public/faq/index.html:579
 #: website/public/first-investigation/index.html:540
-#: website/public/get-started/index.html:1823
+#: website/public/get-started/index.html:1854
 #: website/public/guides/browser/index.html:513
 #: website/public/guides/index.html:307
-#: website/public/guides/javascript/index.html:509
-#: website/public/guides/native/index.html:515
-#: website/public/guides/rl-environments/index.html:502
+#: website/public/guides/javascript/index.html:517
+#: website/public/guides/native/index.html:517
+#: website/public/guides/rl-environments/index.html:504
 #: website/public/index.html:1309 website/public/showcase/aegis/index.html:814
 #: website/public/showcase/ctf/index.html:783
 #: website/public/showcase/dx-ball/index.html:791
@@ -255,12 +255,12 @@ msgstr "X-এ আমাদের ফলো করুন"
 #: website/public/examples/dino-lab/index.html:486
 #: website/public/faq/index.html:584
 #: website/public/first-investigation/index.html:545
-#: website/public/get-started/index.html:1828
+#: website/public/get-started/index.html:1859
 #: website/public/guides/browser/index.html:518
 #: website/public/guides/index.html:312
-#: website/public/guides/javascript/index.html:514
-#: website/public/guides/native/index.html:520
-#: website/public/guides/rl-environments/index.html:507
+#: website/public/guides/javascript/index.html:522
+#: website/public/guides/native/index.html:522
+#: website/public/guides/rl-environments/index.html:509
 #: website/public/index.html:1314 website/public/showcase/aegis/index.html:819
 #: website/public/showcase/ctf/index.html:788
 #: website/public/showcase/dx-ball/index.html:796
@@ -298,7 +298,7 @@ msgstr ""
 #: website/public/guides/index.html:118
 #: website/public/guides/javascript/index.html:118
 #: website/public/guides/native/index.html:118
-#: website/public/guides/rl-environments/index.html:116
+#: website/public/guides/rl-environments/index.html:118
 #: website/public/index.html:120 website/public/showcase/aegis/index.html:119
 #: website/public/showcase/ctf/index.html:118
 #: website/public/showcase/dx-ball/index.html:118
@@ -321,7 +321,7 @@ msgstr "REA হোম"
 #: website/public/guides/index.html:122
 #: website/public/guides/javascript/index.html:122
 #: website/public/guides/native/index.html:122
-#: website/public/guides/rl-environments/index.html:120
+#: website/public/guides/rl-environments/index.html:122
 #: website/public/index.html:124 website/public/showcase/aegis/index.html:123
 #: website/public/showcase/ctf/index.html:122
 #: website/public/showcase/dx-ball/index.html:122
@@ -344,7 +344,7 @@ msgstr "প্রধান নেভিগেশন"
 #: website/public/guides/index.html:139
 #: website/public/guides/javascript/index.html:139
 #: website/public/guides/native/index.html:139
-#: website/public/guides/rl-environments/index.html:137
+#: website/public/guides/rl-environments/index.html:139
 #: website/public/index.html:141 website/public/showcase/aegis/index.html:140
 #: website/public/showcase/ctf/index.html:139
 #: website/public/showcase/dx-ball/index.html:139
@@ -367,7 +367,7 @@ msgstr "GitHub-এ REA"
 #: website/public/guides/index.html:159
 #: website/public/guides/javascript/index.html:159
 #: website/public/guides/native/index.html:159
-#: website/public/guides/rl-environments/index.html:157
+#: website/public/guides/rl-environments/index.html:159
 #: website/public/index.html:161 website/public/showcase/aegis/index.html:160
 #: website/public/showcase/ctf/index.html:159
 #: website/public/showcase/dx-ball/index.html:159
@@ -390,7 +390,7 @@ msgstr "Discord-এ REA-তে যোগ দিন"
 #: website/public/guides/index.html:178
 #: website/public/guides/javascript/index.html:178
 #: website/public/guides/native/index.html:178
-#: website/public/guides/rl-environments/index.html:176
+#: website/public/guides/rl-environments/index.html:178
 #: website/public/index.html:180 website/public/showcase/aegis/index.html:179
 #: website/public/showcase/ctf/index.html:178
 #: website/public/showcase/dx-ball/index.html:178
@@ -3622,27 +3622,27 @@ msgstr "টার্মিনাল"
 #: website/public/get-started/index.html:552
 #: website/public/get-started/index.html:584
 #: website/public/get-started/index.html:613
-#: website/public/get-started/index.html:748
-#: website/public/get-started/index.html:778
-#: website/public/get-started/index.html:803
-#: website/public/get-started/index.html:818
-#: website/public/get-started/index.html:866
-#: website/public/get-started/index.html:899
-#: website/public/get-started/index.html:1051
-#: website/public/get-started/index.html:1113
-#: website/public/get-started/index.html:1136
-#: website/public/get-started/index.html:1160
-#: website/public/get-started/index.html:1208
-#: website/public/get-started/index.html:1283
-#: website/public/get-started/index.html:1309
-#: website/public/get-started/index.html:1326
-#: website/public/get-started/index.html:1569
-#: website/public/get-started/index.html:1628
-#: website/public/get-started/index.html:1647
-#: website/public/get-started/index.html:1669
-#: website/public/get-started/index.html:1712
-#: website/public/get-started/index.html:1742
-#: website/public/get-started/index.html:1763
+#: website/public/get-started/index.html:779
+#: website/public/get-started/index.html:809
+#: website/public/get-started/index.html:834
+#: website/public/get-started/index.html:849
+#: website/public/get-started/index.html:897
+#: website/public/get-started/index.html:930
+#: website/public/get-started/index.html:1082
+#: website/public/get-started/index.html:1144
+#: website/public/get-started/index.html:1167
+#: website/public/get-started/index.html:1191
+#: website/public/get-started/index.html:1239
+#: website/public/get-started/index.html:1314
+#: website/public/get-started/index.html:1340
+#: website/public/get-started/index.html:1357
+#: website/public/get-started/index.html:1600
+#: website/public/get-started/index.html:1659
+#: website/public/get-started/index.html:1678
+#: website/public/get-started/index.html:1700
+#: website/public/get-started/index.html:1743
+#: website/public/get-started/index.html:1773
+#: website/public/get-started/index.html:1794
 msgctxt "page:get-started/index.html"
 msgid "Copy"
 msgstr "কপি"
@@ -3694,7 +3694,7 @@ msgstr "{ph0}সাহায্য পাওয়া{ph1}"
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/get-started/index.html:773
+#: website/public/get-started/index.html:804
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Your coding agent"
@@ -3707,7 +3707,7 @@ msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}আপনার coding agent"
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
-#: website/public/get-started/index.html:787
+#: website/public/get-started/index.html:818
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3719,7 +3719,7 @@ msgstr ""
 "সঙ্গে যুক্ত করো। অনুমোদনের জন্য আগে setup পরিকল্পনাটি আমাকে দেখাও, তারপর "
 "ইনস্টলেশন যাচাই করো।{ph4}{ph5}{ph6}"
 
-#: website/public/get-started/index.html:799
+#: website/public/get-started/index.html:830
 msgctxt "page:get-started/index.html"
 msgid "Or run setup yourself"
 msgstr "অথবা নিজেই setup চালান"
@@ -3786,7 +3786,7 @@ msgstr ""
 "{ph0} {ph1} দিয়ে কমান্ড paste করুন (macOS: {ph2} {ph3}; Linux টার্মিনাল: "
 "{ph4} {ph5} {ph6}), তারপর Enter চাপুন।"
 
-#: website/public/get-started/index.html:835
+#: website/public/get-started/index.html:866
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose your client and review the setup plan. REA adds its MCP connection "
@@ -3797,7 +3797,7 @@ msgstr ""
 " মানানসই investigation skill যোগ করে, আর বিদ্যমান configuration-এর ব্যাকআপ "
 "রাখে। পরিবর্তন প্রয়োগের আগে এটি আপনার অনুমতি চায়।"
 
-#: website/public/get-started/index.html:849
+#: website/public/get-started/index.html:880
 msgctxt "page:get-started/index.html"
 msgid "How do I restart my client?"
 msgstr "Client কীভাবে রিস্টার্ট করব?"
@@ -3806,7 +3806,7 @@ msgstr "Client কীভাবে রিস্টার্ট করব?"
 #. {ph1}: </strong>
 #. {ph2}: <kbd>⌘</kbd>
 #. {ph3}: <kbd>Q</kbd>
-#: website/public/get-started/index.html:850
+#: website/public/get-started/index.html:881
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3821,7 +3821,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:857
+#: website/public/get-started/index.html:888
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3831,7 +3831,7 @@ msgstr ""
 "{ph0}টার্মিনাল agent{ph1} (Claude Code, Codex, Gemini CLI): session থেকে "
 "বেরিয়ে আবার শুরু করুন।"
 
-#: website/public/get-started/index.html:961
+#: website/public/get-started/index.html:992
 msgctxt "page:get-started/index.html"
 msgid "How do I get a folder's full path?"
 msgstr "একটি ফোল্ডারের পূর্ণ path কীভাবে পাব?"
@@ -3840,7 +3840,7 @@ msgstr "একটি ফোল্ডারের পূর্ণ path কীভ�
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/get-started/index.html:963
+#: website/public/get-started/index.html:994
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3854,7 +3854,7 @@ msgstr ""
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/get-started/index.html:968
+#: website/public/get-started/index.html:999
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3866,7 +3866,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:972
+#: website/public/get-started/index.html:1003
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3876,13 +3876,13 @@ msgstr ""
 "{ph0}যেকোনো সিস্টেমে:{ph1} ফোল্ডারটি টেনে টার্মিনাল window-তে ছেড়ে দিন, "
 "path দেখা যাবে।"
 
-#: website/public/get-started/index.html:977
-#: website/public/get-started/index.html:1735
+#: website/public/get-started/index.html:1008
+#: website/public/get-started/index.html:1766
 msgctxt "page:get-started/index.html"
 msgid "In a terminal, put quotes around a path that contains spaces."
 msgstr "টার্মিনালে space আছে এমন path-এর চারপাশে উদ্ধৃতিচিহ্ন দিন।"
 
-#: website/public/get-started/index.html:1562
+#: website/public/get-started/index.html:1593
 msgctxt "page:get-started/index.html"
 msgid ""
 "Analyze a JavaScript or Electron application folder or ASAR archive without "
@@ -3891,14 +3891,14 @@ msgstr ""
 "অ্যাপটি না চালিয়েই একটি JavaScript বা Electron অ্যাপ্লিকেশন ফোল্ডার বা ASAR"
 " archive বিশ্লেষণ করুন:"
 
-#: website/public/get-started/index.html:1568
+#: website/public/get-started/index.html:1599
 msgctxt "page:get-started/index.html"
 msgid "Static application analysis"
 msgstr "Static অ্যাপ্লিকেশন বিশ্লেষণ"
 
 #. {ph0}: <code>.asar</code>
 #. {ph1}: <code>"D:/apps/example"</code>
-#: website/public/get-started/index.html:1580
+#: website/public/get-started/index.html:1611
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3908,13 +3908,13 @@ msgstr ""
 "Path-এর জায়গায় আপনার extract করা অ্যাপ ডিরেক্টরি বা {ph0} ফাইল দিন। "
 "Windows-এ এখানে {ph1}-এর মতো path কাজ করে।"
 
-#: website/public/get-started/index.html:1586
+#: website/public/get-started/index.html:1617
 msgctxt "page:get-started/index.html"
 msgid "Where do I find an app's .asar file?"
 msgstr "একটি অ্যাপের .asar ফাইল কোথায় পাব?"
 
 #. {ph0}: <code>resources</code>
-#: website/public/get-started/index.html:1587
+#: website/public/get-started/index.html:1618
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "Electron apps usually keep it in a {ph0} folder:"
@@ -3925,7 +3925,7 @@ msgstr "Electron অ্যাপ সাধারণত এটি একটি {p
 #. {ph2}: <code
 #. >C:\Users\&lt;you&gt;\AppData\Local\Programs\&lt;App&gt;\resources\app.asar</code
 #. >
-#: website/public/get-started/index.html:1592
+#: website/public/get-started/index.html:1623
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Windows:{ph1} {ph2}"
@@ -3937,7 +3937,7 @@ msgstr "{ph0}Windows:{ph1} {ph2}"
 #. >/Applications/&lt;App&gt;.app/Contents/Resources/app.asar</code >
 #. {ph3}: <em>
 #. {ph4}: </em>
-#: website/public/get-started/index.html:1598
+#: website/public/get-started/index.html:1629
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3950,21 +3950,21 @@ msgstr ""
 #. {ph0}: <strong>
 #. {ph1}: </strong>
 #. {ph2}: <code>/opt/&lt;App&gt;/resources/app.asar</code>
-#: website/public/get-started/index.html:1606
+#: website/public/get-started/index.html:1637
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Linux:{ph1} often {ph2}"
 msgstr "{ph0}Linux:{ph1} প্রায়ই {ph2}"
 
 #. {ph0}: <code>app.asar</code>
-#: website/public/get-started/index.html:1611
+#: website/public/get-started/index.html:1642
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "Some apps install elsewhere. Search the app's folder for {ph0}."
 msgstr ""
 "কিছু অ্যাপ অন্য জায়গায় ইনস্টল হয়। অ্যাপের ফোল্ডারে {ph0} খুঁজে দেখুন।"
 
-#: website/public/get-started/index.html:1616
+#: website/public/get-started/index.html:1647
 msgctxt "page:get-started/index.html"
 msgid ""
 "The result identifies the app, shows connections between modules and gives "
@@ -3976,36 +3976,36 @@ msgstr ""
 "সেগুলো ফলাফলে চিহ্নিত থাকে।"
 
 #. {ph0}: <code>rea</code>
-#: website/public/get-started/index.html:1621
+#: website/public/get-started/index.html:1652
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "If you'd like a permanent {ph0} command in your shell:"
 msgstr "আপনার shell-এ স্থায়ী একটি {ph0} কমান্ড চাইলে:"
 
-#: website/public/get-started/index.html:1627
+#: website/public/get-started/index.html:1658
 msgctxt "page:get-started/index.html"
 msgid "Install the CLI"
 msgstr "CLI ইনস্টল করুন"
 
 #. {ph0}: <a href="../guides/javascript/" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1639
+#: website/public/get-started/index.html:1670
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Continue with the JavaScript application guide{ph1}"
 msgstr "{ph0}JavaScript অ্যাপ্লিকেশন গাইড দিয়ে এগিয়ে যান{ph1}"
 
-#: website/public/get-started/index.html:1156
+#: website/public/get-started/index.html:1187
 msgctxt "page:get-started/index.html"
 msgid "Connect your Ghidra installation"
 msgstr "আপনার Ghidra ইনস্টলেশন যুক্ত করুন"
 
-#: website/public/get-started/index.html:1126
+#: website/public/get-started/index.html:1157
 msgctxt "page:get-started/index.html"
 msgid "Connect Ghidra on Windows"
 msgstr "Windows-এ Ghidra যুক্ত করুন"
 
-#: website/public/get-started/index.html:1127
+#: website/public/get-started/index.html:1158
 msgctxt "page:get-started/index.html"
 msgid ""
 "Windows x64 has experimental, read-only support for native x86 and x64 PE "
@@ -4016,7 +4016,7 @@ msgstr ""
 " ও DLL-এর জন্য পরীক্ষামূলক, শুধু-পড়ার (read-only) সমর্থন আছে। বিদ্যমান "
 "Ghidra 12.1.x ইনস্টলেশন এবং 64-bit JDK 21 বা নতুনতর ব্যবহার করুন:"
 
-#: website/public/get-started/index.html:1150
+#: website/public/get-started/index.html:1181
 msgctxt "page:get-started/index.html"
 msgid ""
 "Replace the two paths with your installations, then review setup's plan."
@@ -4024,7 +4024,7 @@ msgstr ""
 "দুটো path-এর জায়গায় আপনার ইনস্টলেশনের path দিন, তারপর setup-এর পরিকল্পনাটি"
 " দেখে নিন।"
 
-#: website/public/get-started/index.html:1032
+#: website/public/get-started/index.html:1063
 msgctxt "page:get-started/index.html"
 msgid ""
 "Connect Hopper on macOS or Linux. Run the setup command above; it detects an"
@@ -4034,18 +4034,18 @@ msgstr ""
 " ইনস্টলেশন খুঁজে নেয়, অথবা আপনার অনুমোদনের জন্য একটি ইনস্টলেশন পরিকল্পনা "
 "দেয়।"
 
-#: website/public/get-started/index.html:1693
+#: website/public/get-started/index.html:1724
 msgctxt "page:get-started/index.html"
 msgid "Getting help"
 msgstr "সাহায্য পাওয়া"
 
-#: website/public/get-started/index.html:1695
+#: website/public/get-started/index.html:1726
 msgctxt "page:get-started/index.html"
 msgid "If your agent doesn't see REA"
 msgstr "আপনার agent যদি REA দেখতে না পায়"
 
 #. {ph0}: <code>doctor</code>
-#: website/public/get-started/index.html:1696
+#: website/public/get-started/index.html:1727
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -4055,22 +4055,22 @@ msgstr ""
 "Setup-এর পরে client রিস্টার্ট করুন বা আবার connect করুন। {ph0} দিয়ে এর REA "
 "connection যাচাই করুন; Codex-এর ক্ষেত্রে:"
 
-#: website/public/get-started/index.html:1707
+#: website/public/get-started/index.html:1738
 msgctxt "page:get-started/index.html"
 msgid "If a provider needs attention"
 msgstr "কোনো provider-এ সমস্যা থাকলে"
 
-#: website/public/get-started/index.html:1708
+#: website/public/get-started/index.html:1739
 msgctxt "page:get-started/index.html"
 msgid "Check the provider you're using. For Ghidra:"
 msgstr "আপনি যে provider ব্যবহার করছেন সেটি যাচাই করুন। Ghidra-র ক্ষেত্রে:"
 
-#: website/public/get-started/index.html:1711
+#: website/public/get-started/index.html:1742
 msgctxt "page:get-started/index.html"
 msgid "Check one provider"
 msgstr "একটি provider যাচাই"
 
-#: website/public/get-started/index.html:1723
+#: website/public/get-started/index.html:1754
 msgctxt "page:get-started/index.html"
 msgid "The report gives the failed check and a suggested next step."
 msgstr "রিপোর্টে ব্যর্থ যাচাইটি এবং পরবর্তী করণীয়ের পরামর্শ থাকে।"
@@ -4079,7 +4079,7 @@ msgstr "রিপোর্টে ব্যর্থ যাচাইটি এব
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1788
+#: website/public/get-started/index.html:1819
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -4091,7 +4091,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span >
 #. {ph3}: </span >
-#: website/public/get-started/index.html:1792
+#: website/public/get-started/index.html:1823
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -4105,7 +4105,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1799
+#: website/public/get-started/index.html:1830
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -4117,7 +4117,7 @@ msgstr "{ph0}GitHub issue{ph1}{ph2}কমান্ড ও diagnostics সহ স
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1803
+#: website/public/get-started/index.html:1834
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -4176,27 +4176,27 @@ msgctxt "page:get-started/index.html"
 msgid "REA getting started guide"
 msgstr "REA শুরু করার গাইড"
 
-#: website/public/get-started/index.html:778
+#: website/public/get-started/index.html:809
 msgctxt "page:get-started/index.html"
 msgid "Copy REA installation prompt"
 msgstr "REA ইনস্টলেশনের prompt কপি করুন"
 
-#: website/public/get-started/index.html:1569
+#: website/public/get-started/index.html:1600
 msgctxt "page:get-started/index.html"
 msgid "Copy JavaScript analysis command"
 msgstr "JavaScript বিশ্লেষণ কমান্ড কপি করুন"
 
-#: website/public/get-started/index.html:1628
+#: website/public/get-started/index.html:1659
 msgctxt "page:get-started/index.html"
 msgid "Copy CLI installation command"
 msgstr "CLI ইনস্টলেশন কমান্ড কপি করুন"
 
-#: website/public/get-started/index.html:1712
+#: website/public/get-started/index.html:1743
 msgctxt "page:get-started/index.html"
 msgid "Copy provider diagnosis command"
 msgstr "Provider diagnosis কমান্ড কপি করুন"
 
-#: website/public/get-started/index.html:1828
+#: website/public/get-started/index.html:1859
 msgctxt "page:get-started/index.html"
 msgid "Back to top"
 msgstr "উপরে ফিরে যান"
@@ -5111,7 +5111,7 @@ msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Your coding agent"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}আপনার coding agent"
 
 #: website/public/guides/javascript/index.html:286
-#: website/public/guides/javascript/index.html:435
+#: website/public/guides/javascript/index.html:443
 msgctxt "page:guides/javascript/index.html"
 msgid "Copy"
 msgstr "কপি"
@@ -5164,14 +5164,14 @@ msgstr "পেজটি একটি ছোট API call করে"
 
 #. {ph0}: <span translate="no">renderer.js</span>
 #: website/public/guides/javascript/index.html:318
-#: website/public/guides/javascript/index.html:334
-#: website/public/guides/javascript/index.html:349
+#: website/public/guides/javascript/index.html:341
+#: website/public/guides/javascript/index.html:356
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid "{ph0} · example source"
 msgstr "{ph0} · উদাহরণের সোর্স"
 
-#: website/public/guides/javascript/index.html:328
+#: website/public/guides/javascript/index.html:335
 msgctxt "page:guides/javascript/index.html"
 msgid ""
 "The page knows the method name. The implementation lives in the preload, "
@@ -5182,7 +5182,7 @@ msgstr ""
 
 #. {ph0}: <code>notes.exportCsv</code>
 #. {ph1}: <code>notes:export</code>
-#: website/public/guides/javascript/index.html:342
+#: website/public/guides/javascript/index.html:349
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid ""
@@ -5194,7 +5194,7 @@ msgstr ""
 
 #. {ph0}: <code>csv.js</code>
 #. {ph1}: <code>notes.csv</code>
-#: website/public/guides/javascript/index.html:359
+#: website/public/guides/javascript/index.html:366
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid ""
@@ -5204,28 +5204,19 @@ msgstr ""
 "Handler-টি পড়লেই মূল প্রশ্নের উত্তর মেলে: {ph0} নোটগুলো সাজায়, আর main "
 "process ব্যবহারকারীর Downloads ফোল্ডারে {ph1} লেখে।"
 
-#: website/public/guides/javascript/index.html:366
+#: website/public/guides/javascript/index.html:373
 msgctxt "page:guides/javascript/index.html"
 msgid "REA result · summary.ipc excerpt"
 msgstr "REA ফলাফল · summary.ipc-এর অংশ"
 
-#: website/public/guides/javascript/index.html:376
-msgctxt "page:guides/javascript/index.html"
-msgid ""
-"Recorded by REA 4.1.0 on the downloadable example below. Source locations "
-"accompany the API, channel and handler findings."
-msgstr ""
-"নিচের ডাউনলোডযোগ্য উদাহরণে REA 4.1.0 দিয়ে রেকর্ড করা। API, channel ও "
-"handler-এর ফলাফলের সঙ্গে source location দেওয়া আছে।"
-
-#: website/public/guides/javascript/index.html:382
+#: website/public/guides/javascript/index.html:390
 msgctxt "page:guides/javascript/index.html"
 msgid "Analyze the example yourself"
 msgstr "উদাহরণটি নিজে বিশ্লেষণ করুন"
 
 #. {ph0}: <code>notes-example</code>
 #. {ph1}: <span translate="no">Node.js</span>
-#: website/public/guides/javascript/index.html:383
+#: website/public/guides/javascript/index.html:391
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid ""
@@ -5239,25 +5230,25 @@ msgstr ""
 #. {ph0}: <a class="button" href="../../examples/notes-example.zip"
 #. download="notes-example.zip" >
 #. {ph1}: </a >
-#: website/public/guides/javascript/index.html:389
+#: website/public/guides/javascript/index.html:397
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid "{ph0}Download example ZIP{ph1}"
 msgstr "{ph0}উদাহরণের ZIP ডাউনলোড করুন{ph1}"
 
-#: website/public/guides/javascript/index.html:398
+#: website/public/guides/javascript/index.html:406
 msgctxt "page:guides/javascript/index.html"
 msgid "Browse the six source files"
 msgstr "ছয়টি সোর্স ফাইল দেখুন"
 
-#: website/public/guides/javascript/index.html:434
+#: website/public/guides/javascript/index.html:442
 msgctxt "page:guides/javascript/index.html"
 msgid "Static application analysis"
 msgstr "Static অ্যাপ্লিকেশন বিশ্লেষণ"
 
 #. {ph0}: <code>normalized_result.summary.ipc</code>
 #. {ph1}: <code>normalized_result.graph</code>
-#: website/public/guides/javascript/index.html:447
+#: website/public/guides/javascript/index.html:455
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid ""
@@ -5267,7 +5258,7 @@ msgstr ""
 "Path-এর জায়গায় আপনার unzip করা ফোল্ডারটি দিন। {ph0}-এ একটি IPC channel এবং"
 " একটি মিলে যাওয়া handler পাবেন। Source location আছে {ph1}-এ।"
 
-#: website/public/guides/javascript/index.html:453
+#: website/public/guides/javascript/index.html:461
 msgctxt "page:guides/javascript/index.html"
 msgid ""
 "For your own app, use the same command with its directory or ASAR path. An "
@@ -5278,13 +5269,13 @@ msgstr ""
 "feature tracing টুল দিয়ে একটি agent আক্ষরিক string, API-এর নাম বা IPC "
 "channel অনুসরণ করতে পারে।"
 
-#: website/public/guides/javascript/index.html:460
+#: website/public/guides/javascript/index.html:468
 msgctxt "page:guides/javascript/index.html"
 msgid "Inspect the CSV writer"
 msgstr "CSV writer পরীক্ষা করুন"
 
 #. {ph0}: <code>notes:export</code>
-#: website/public/guides/javascript/index.html:462
+#: website/public/guides/javascript/index.html:470
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid ""
@@ -5294,7 +5285,7 @@ msgstr ""
 "{ph0} অনুসরণ করে তার handler পর্যন্ত যান। কোন কোন input CSV writer-এ "
 "পৌঁছায়, আর ফাইল লেখা ব্যর্থ হলে কী হয়?"
 
-#: website/public/guides/javascript/index.html:468
+#: website/public/guides/javascript/index.html:476
 msgctxt "page:guides/javascript/index.html"
 msgid ""
 "Use the source locations to inspect those details. Computed channel names "
@@ -5309,7 +5300,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/guides/javascript/index.html:474
+#: website/public/guides/javascript/index.html:482
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid ""
@@ -5323,7 +5314,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span >
 #. {ph3}: </span >
-#: website/public/guides/javascript/index.html:480
+#: website/public/guides/javascript/index.html:488
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid ""
@@ -5337,7 +5328,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span >
 #. {ph3}: </span >
-#: website/public/guides/javascript/index.html:486
+#: website/public/guides/javascript/index.html:494
 #, python-brace-format
 msgctxt "page:guides/javascript/index.html"
 msgid ""
@@ -5378,12 +5369,12 @@ msgctxt "page:guides/javascript/index.html"
 msgid "Copy example prompt"
 msgstr "উদাহরণ prompt কপি করুন"
 
-#: website/public/guides/javascript/index.html:435
+#: website/public/guides/javascript/index.html:443
 msgctxt "page:guides/javascript/index.html"
 msgid "Copy static application analysis"
 msgstr "Static অ্যাপ্লিকেশন বিশ্লেষণ কপি করুন"
 
-#: website/public/guides/javascript/index.html:514
+#: website/public/guides/javascript/index.html:522
 msgctxt "page:guides/javascript/index.html"
 msgid "Back to top"
 msgstr "উপরে ফিরে যান"
@@ -5681,18 +5672,9 @@ msgstr ""
 "{ph0}Ghidra{ph1} (macOS বা Linux; Windows-এ পরীক্ষামূলক): বিনামূল্যে, তবে "
 "বিদ্যমান Ghidra 12.1.x ইনস্টলেশন এবং 64-bit JDK 21 বা নতুনতর লাগে।"
 
-#. {ph0}: <strong>
-#. {ph1}: </strong>
-#: website/public/guides/native/index.html:329
-#, python-brace-format
-msgctxt "page:guides/native/index.html"
-msgid ""
-"{ph0}IDA{ph1} (Windows): for an existing IDA setup with an MCP registration."
-msgstr "{ph0}IDA{ph1} (Windows): MCP নিবন্ধনসহ বিদ্যমান IDA setup-এর জন্য।"
-
 #. {ph0}: <a href="../../get-started/#native">
 #. {ph1}: </a>
-#: website/public/guides/native/index.html:334
+#: website/public/guides/native/index.html:336
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "See {ph0}Set up native analysis{ph1} for the steps."
@@ -5706,14 +5688,14 @@ msgstr "ধাপগুলোর জন্য {ph0}Native বিশ্লেষ�
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/guides/native/index.html:342
+#: website/public/guides/native/index.html:344
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Your coding agent"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}আপনার coding agent"
 
-#: website/public/guides/native/index.html:346
-#: website/public/guides/native/index.html:477
+#: website/public/guides/native/index.html:348
+#: website/public/guides/native/index.html:479
 msgctxt "page:guides/native/index.html"
 msgid "Copy"
 msgstr "কপি"
@@ -5724,7 +5706,7 @@ msgstr "কপি"
 #. {ph3}: </span >
 #. {ph4}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph5}: </span>
-#: website/public/guides/native/index.html:355
+#: website/public/guides/native/index.html:357
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5734,7 +5716,7 @@ msgstr ""
 "{ph0}›{ph1}{ph2}DX-Ball কীভাবে sound panning হিসাব করে তা REA দিয়ে খুঁজে "
 "বের করো। হিসাবটি ব্যাখ্যা করো এবং কোড দেখাও।{ph3}{ph4}{ph5}"
 
-#: website/public/guides/native/index.html:363
+#: website/public/guides/native/index.html:365
 msgctxt "page:guides/native/index.html"
 msgid ""
 "Example prompt. Give your agent the path to your local DX-Ball 1.07 "
@@ -5745,7 +5727,7 @@ msgstr ""
 "দিন। REA-তে DX-Ball দেওয়া নেই, তাই নিজের কপি ব্যবহার করুন, অথবা আপনার কাছে "
 "থাকা অন্য কোনো ছোট Windows প্রোগ্রাম নিয়ে একই ধরনের প্রশ্ন করুন।"
 
-#: website/public/guides/native/index.html:370
+#: website/public/guides/native/index.html:372
 msgctxt "page:guides/native/index.html"
 msgid "How do I get a file's full path?"
 msgstr "একটি ফাইলের পূর্ণ path কীভাবে পাব?"
@@ -5754,7 +5736,7 @@ msgstr "একটি ফাইলের পূর্ণ path কীভাবে 
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/guides/native/index.html:372
+#: website/public/guides/native/index.html:374
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5768,7 +5750,7 @@ msgstr ""
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/guides/native/index.html:377
+#: website/public/guides/native/index.html:379
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5780,7 +5762,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/guides/native/index.html:381
+#: website/public/guides/native/index.html:383
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5790,22 +5772,22 @@ msgstr ""
 "{ph0}যেকোনো সিস্টেমে:{ph1} ফাইলটি টেনে টার্মিনাল window-তে ছেড়ে দিন, path "
 "দেখা যাবে।"
 
-#: website/public/guides/native/index.html:389
+#: website/public/guides/native/index.html:391
 msgctxt "page:guides/native/index.html"
 msgid "Read the REA results"
 msgstr "REA-এর ফলাফল পড়ুন"
 
-#: website/public/guides/native/index.html:390
+#: website/public/guides/native/index.html:392
 msgctxt "page:guides/native/index.html"
 msgid "Read the input"
 msgstr "Input পড়ুন"
 
-#: website/public/guides/native/index.html:393
+#: website/public/guides/native/index.html:395
 msgctxt "page:guides/native/index.html"
 msgid "REA instruction excerpt · 0x406409"
 msgstr "REA instruction-এর অংশ · 0x406409"
 
-#: website/public/guides/native/index.html:399
+#: website/public/guides/native/index.html:401
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The instructions load an integer argument and convert it for floating-point "
@@ -5814,18 +5796,18 @@ msgstr ""
 "Instruction-গুলো একটি integer argument লোড করে floating-point হিসাবের জন্য "
 "রূপান্তর করে। প্রথম pseudocode-এ এই input-টিই অনুপস্থিত ছিল।"
 
-#: website/public/guides/native/index.html:404
+#: website/public/guides/native/index.html:406
 msgctxt "page:guides/native/index.html"
 msgid "Follow the caller"
 msgstr "Caller অনুসরণ করুন"
 
-#: website/public/guides/native/index.html:407
+#: website/public/guides/native/index.html:409
 msgctxt "page:guides/native/index.html"
 msgid "REA caller excerpt · 0x411f5b"
 msgstr "REA caller-এর অংশ · 0x411f5b"
 
 #. {ph0}: <code>0x14</code>
-#: website/public/guides/native/index.html:413
+#: website/public/guides/native/index.html:415
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5836,17 +5818,17 @@ msgstr ""
 "coordinate-কে 30 দিয়ে গুণ করে; {ph0} (20) যোগ করলে brick-এর screen অবস্থান "
 "পাওয়া যায়।"
 
-#: website/public/guides/native/index.html:418
+#: website/public/guides/native/index.html:420
 msgctxt "page:guides/native/index.html"
 msgid "Read the referenced constants"
 msgstr "Reference করা constant পড়ুন"
 
-#: website/public/guides/native/index.html:421
+#: website/public/guides/native/index.html:423
 msgctxt "page:guides/native/index.html"
 msgid "REA byte results · interpreted as little-endian doubles"
 msgstr "REA byte ফলাফল · little-endian double হিসেবে ব্যাখ্যা করা"
 
-#: website/public/guides/native/index.html:429
+#: website/public/guides/native/index.html:431
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The arithmetic references these addresses. Reading the bytes supplies the "
@@ -5855,17 +5837,17 @@ msgstr ""
 "হিসাবটি এই address-গুলো reference করে। Byte পড়লে আসল মান পাওয়া যায়; "
 "instruction-এর ক্রম agent-কে বলে দেয় সেগুলো কীভাবে ব্যবহৃত হয়।"
 
-#: website/public/guides/native/index.html:436
+#: website/public/guides/native/index.html:438
 msgctxt "page:guides/native/index.html"
 msgid "Write and check the recovered function"
 msgstr "উদ্ধার করা function লিখে যাচাই করুন"
 
-#: website/public/guides/native/index.html:438
+#: website/public/guides/native/index.html:440
 msgctxt "page:guides/native/index.html"
 msgid "Recovered C · excerpt"
 msgstr "উদ্ধার করা C · অংশবিশেষ"
 
-#: website/public/guides/native/index.html:445
+#: website/public/guides/native/index.html:447
 msgctxt "page:guides/native/index.html"
 msgid ""
 "With a scale of 1.0, screen positions 0, 320 and 640 map to −500, 0 and 500 "
@@ -5876,7 +5858,7 @@ msgstr ""
 "−500, 0 ও 500-এ পরিণত হয়। হিসাবটি স্ক্রিনের মাঝখানকে stereo field-এর "
 "মাঝখানে রাখে।"
 
-#: website/public/guides/native/index.html:450
+#: website/public/guides/native/index.html:452
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The agent used REA's findings to write the C. Separate checks compared 3,205"
@@ -5889,20 +5871,20 @@ msgstr ""
 
 #. {ph0}: <a href="../../showcase/dx-ball/#sound-pan" >
 #. {ph1}: </a >
-#: website/public/guides/native/index.html:455
+#: website/public/guides/native/index.html:457
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "{ph0}See the full investigation and assembly-to-C comparison{ph1}"
 msgstr "{ph0}পূর্ণ অনুসন্ধান এবং assembly থেকে C-এর তুলনা দেখুন{ph1}"
 
-#: website/public/guides/native/index.html:462
+#: website/public/guides/native/index.html:464
 msgctxt "page:guides/native/index.html"
 msgid "Try it with your own binary"
 msgstr "নিজের বাইনারি দিয়ে চেষ্টা করুন"
 
 #. {ph0}: <a href="../../get-started/#native" >
 #. {ph1}: </a >
-#: website/public/guides/native/index.html:463
+#: website/public/guides/native/index.html:465
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5916,7 +5898,7 @@ msgstr ""
 "জন্য ভালো প্রশ্ন হতে পারে “এই ফাইলটি কীভাবে parse করা হয়?” বা “কোন function"
 " এই menu action সামলায়?”"
 
-#: website/public/guides/native/index.html:470
+#: website/public/guides/native/index.html:472
 msgctxt "page:guides/native/index.html"
 msgid ""
 "If you already know a function name or address, you can query it from the "
@@ -5925,13 +5907,13 @@ msgstr ""
 "কোনো function-এর নাম বা address আগে থেকে জানা থাকলে টার্মিনাল থেকেই query "
 "করতে পারেন। কনফিগার করা Ghidra ইনস্টলেশনের ক্ষেত্রে:"
 
-#: website/public/guides/native/index.html:476
+#: website/public/guides/native/index.html:478
 msgctxt "page:guides/native/index.html"
 msgid "Function analysis"
 msgstr "Function বিশ্লেষণ"
 
 #. {ph0}: <code>main</code>
-#: website/public/guides/native/index.html:489
+#: website/public/guides/native/index.html:491
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5945,7 +5927,7 @@ msgstr ""
 "বন্ধ করে দেয়। আপনার agent-এর MCP query-গুলো session খোলা থাকা পর্যন্ত "
 "import করা বাইনারিটিই আবার ব্যবহার করে।"
 
-#: website/public/guides/native/index.html:495
+#: website/public/guides/native/index.html:497
 msgctxt "page:guides/native/index.html"
 msgid ""
 "Read the pseudocode alongside instructions and references. When a result "
@@ -5978,17 +5960,17 @@ msgctxt "page:guides/native/index.html"
 msgid "Native analysis"
 msgstr "Native বিশ্লেষণ"
 
-#: website/public/guides/native/index.html:346
+#: website/public/guides/native/index.html:348
 msgctxt "page:guides/native/index.html"
 msgid "Copy example prompt"
 msgstr "উদাহরণ prompt কপি করুন"
 
-#: website/public/guides/native/index.html:477
+#: website/public/guides/native/index.html:479
 msgctxt "page:guides/native/index.html"
 msgid "Copy function analysis"
 msgstr "Function বিশ্লেষণ কপি করুন"
 
-#: website/public/guides/native/index.html:520
+#: website/public/guides/native/index.html:522
 msgctxt "page:guides/native/index.html"
 msgid "Back to top"
 msgstr "উপরে ফিরে যান"
@@ -13422,17 +13404,6 @@ msgctxt "page:get-started/index.html"
 msgid "All supported clients and setup IDs"
 msgstr "সমর্থিত সব ক্লায়েন্ট ও সেটআপ আইডি"
 
-#. {ph0}: <code>--client</code>
-#: website/public/get-started/index.html:637
-#, python-brace-format
-msgctxt "page:get-started/index.html"
-msgid ""
-"The npm 6.4.0 release supports the clients below. Use the ID with {ph0} when"
-" choosing a client explicitly."
-msgstr ""
-"npm 6.4.0 রিলিজ নিচের ক্লায়েন্টগুলো সমর্থন করে। নির্দিষ্ট ক্লায়েন্ট বেছে "
-"নিতে {ph0}-এর সঙ্গে আইডিটি ব্যবহার করুন।"
-
 #: website/public/get-started/index.html:645
 msgctxt "page:get-started/index.html"
 msgid "Client"
@@ -13443,23 +13414,6 @@ msgctxt "page:get-started/index.html"
 msgid "Setup ID"
 msgstr "সেটআপ আইডি"
 
-#. {ph0}: <code>qoder</code>
-#. {ph1}: <code>droid</code>
-#. {ph2}: <code>trae</code>
-#. {ph3}: <code>zcode</code>
-#. {ph4}: <code>dsh</code>
-#: website/public/get-started/index.html:721
-#, python-brace-format
-msgctxt "page:get-started/index.html"
-msgid ""
-"Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) and "
-"DeepSeek Harness ({ph4}) are available on repository main; use a source "
-"build or a release containing those integrations."
-msgstr ""
-"Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) ও DeepSeek"
-" Harness ({ph4}) রিপোজিটরির main-এ পাওয়া যায়; সোর্স বিল্ড বা এই "
-"ইন্টিগ্রেশনগুলো থাকা কোনো রিলিজ ব্যবহার করুন।"
-
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
 #. configuration.md" >
 #. {ph1}: </a >
@@ -13467,7 +13421,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#released-
 #. package-and-main" >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:728
+#: website/public/get-started/index.html:759
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13476,13 +13430,13 @@ msgid ""
 msgstr ""
 "{ph0}ক্লায়েন্ট কনফিগারেশন ও সমস্যা সমাধান{ph1} · {ph2}রিলিজে প্রাপ্যতা{ph3}"
 
-#: website/public/get-started/index.html:740
+#: website/public/get-started/index.html:771
 msgctxt "page:get-started/index.html"
 msgid "Grok Bot · connect on its hosted computer"
 msgstr "Grok Bot · এর হোস্টেড কম্পিউটারে যুক্ত করুন"
 
 #. {ph0}: <code>rea</code>
-#: website/public/get-started/index.html:741
+#: website/public/get-started/index.html:772
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13495,29 +13449,29 @@ msgstr ""
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
 #. configuration.md#other-client-settings" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:759
+#: website/public/get-started/index.html:790
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Grok Bot connector instructions{ph1}"
 msgstr "{ph0}Grok Bot কানেক্টরের নির্দেশনা{ph1}"
 
-#: website/public/get-started/index.html:769
+#: website/public/get-started/index.html:800
 msgctxt "page:get-started/index.html"
 msgid "3. Connect REA"
 msgstr "৩. REA যুক্ত করুন"
 
-#: website/public/get-started/index.html:770
+#: website/public/get-started/index.html:801
 msgctxt "page:get-started/index.html"
 msgid "Copy this into your coding agent:"
 msgstr "এটি আপনার কোডিং এজেন্টে কপি করুন:"
 
-#: website/public/get-started/index.html:814
+#: website/public/get-started/index.html:845
 msgctxt "page:get-started/index.html"
 msgid "For one specific client, add its setup ID:"
 msgstr "নির্দিষ্ট একটি ক্লায়েন্টের জন্য এর সেটআপ আইডি যোগ করুন:"
 
 #. {ph0}: <code>y</code>
-#: website/public/get-started/index.html:829
+#: website/public/get-started/index.html:860
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13529,7 +13483,7 @@ msgstr ""
 "তালিকায় সরাতে অ্যারো কী, আপনার ক্লায়েন্ট বাছতে Space এবং এগোতে Enter "
 "ব্যবহার করুন।"
 
-#: website/public/get-started/index.html:840
+#: website/public/get-started/index.html:871
 msgctxt "page:get-started/index.html"
 msgid ""
 "MCP is the connection that lets your agent call REA. The skill gives it a "
@@ -13538,7 +13492,7 @@ msgstr ""
 "MCP হলো সেই সংযোগ, যার মাধ্যমে আপনার এজেন্ট REA ব্যবহার করতে পারে। স্কিলটি "
 "সফটওয়্যার অনুসন্ধানের একটি কর্মপদ্ধতি দেয়।"
 
-#: website/public/get-started/index.html:844
+#: website/public/get-started/index.html:875
 msgctxt "page:get-started/index.html"
 msgid ""
 "For the first exercise, you can skip the optional Hopper installation. "
@@ -13549,7 +13503,7 @@ msgstr ""
 
 #. {ph0}: <code>codex</code>
 #. {ph1}: <code>"healthy": true</code>
-#: website/public/get-started/index.html:877
+#: website/public/get-started/index.html:908
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13559,21 +13513,21 @@ msgstr ""
 "{ph0}-এর জায়গায় আপনার ক্লায়েন্টের সেটআপ আইডি দিন। যাচাই সফল হলে {ph1} "
 "দেখাবে। তারপর আপনার এজেন্টকে জিজ্ঞেস করুন:"
 
-#: website/public/get-started/index.html:883
+#: website/public/get-started/index.html:914
 msgctxt "page:get-started/index.html"
 msgid "Check that REA is connected and show me which REA tools you can use."
 msgstr ""
 "REA যুক্ত হয়েছে কি না যাচাই করো এবং তুমি REA-র কোন কোন টুল ব্যবহার করতে "
 "পারো তা দেখাও।"
 
-#: website/public/get-started/index.html:890
+#: website/public/get-started/index.html:921
 msgctxt "page:get-started/index.html"
 msgid "4. Try your first investigation"
 msgstr "৪. আপনার প্রথম অনুসন্ধান করে দেখুন"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:891
+#: website/public/get-started/index.html:922
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13585,7 +13539,7 @@ msgstr ""
 "বোতাম আছে। Electron ইনস্টল বা চালু না করেই আপনার এজেন্ট এর কোড পরীক্ষা করতে "
 "পারে।"
 
-#: website/public/get-started/index.html:898
+#: website/public/get-started/index.html:929
 msgctxt "page:get-started/index.html"
 msgid "Your coding agent"
 msgstr "আপনার কোডিং এজেন্ট"
@@ -13599,7 +13553,7 @@ msgstr "আপনার কোডিং এজেন্ট"
 #. {ph5}: </span >
 #. {ph6}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph7}: </span>
-#: website/public/get-started/index.html:908
+#: website/public/get-started/index.html:939
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13613,7 +13567,7 @@ msgstr ""
 "লেখা হয়, এতে কোন কোন ফিল্ড থাকে এবং সংশ্লিষ্ট ফাইল ও লাইনগুলো "
 "দেখাও।{ph5}{ph6}{ph7}"
 
-#: website/public/get-started/index.html:922
+#: website/public/get-started/index.html:953
 msgctxt "page:get-started/index.html"
 msgid "Look for a short explanation with file and line references:"
 msgstr "ফাইল ও লাইনের রেফারেন্সসহ একটি সংক্ষিপ্ত ব্যাখ্যা দেখুন:"
@@ -13622,7 +13576,7 @@ msgstr "ফাইল ও লাইনের রেফারেন্সসহ �
 #. {ph1}: <code>notes.csv</code>
 #. {ph2}: <code>id</code>
 #. {ph3}: <code>title</code>
-#: website/public/get-started/index.html:924
+#: website/public/get-started/index.html:955
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13635,13 +13589,13 @@ msgstr ""
 
 #. {ph0}: <a href="../first-investigation/#check" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:931
+#: website/public/get-started/index.html:962
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Check a prediction in the guided exercise →{ph1}"
 msgstr "{ph0}নির্দেশিত অনুশীলনে একটি অনুমান যাচাই করুন →{ph1}"
 
-#: website/public/get-started/index.html:937
+#: website/public/get-started/index.html:968
 msgctxt "page:get-started/index.html"
 msgid "Download the example yourself, or use your own app"
 msgstr "উদাহরণটি নিজে ডাউনলোড করুন, অথবা নিজের অ্যাপ ব্যবহার করুন"
@@ -13649,14 +13603,14 @@ msgstr "উদাহরণটি নিজে ডাউনলোড করুন
 #. {ph0}: <a class="button" href="../examples/notes-example.zip"
 #. download="notes-example.zip" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:940
+#: website/public/get-started/index.html:971
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Download example ZIP{ph1}"
 msgstr "{ph0}উদাহরণ ZIP ডাউনলোড করুন{ph1}"
 
 #. {ph0}: <code>notes-example</code>
-#: website/public/get-started/index.html:948
+#: website/public/get-started/index.html:979
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13667,7 +13621,7 @@ msgstr ""
 " {ph0} ফোল্ডারের পাথ এবং একই এক্সপোর্ট প্রশ্নটি দিন।"
 
 #. {ph0}: <code>/absolute/path/to/app</code>
-#: website/public/get-started/index.html:954
+#: website/public/get-started/index.html:985
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13677,12 +13631,12 @@ msgstr ""
 "{ph0}-এ থাকা অ্যাপটি REA দিয়ে পরীক্ষা করো। এটি কীভাবে ডেটা এক্সপোর্ট করে "
 "খুঁজে বের করো এবং সংশ্লিষ্ট ফাইল ও লাইনগুলো দেখাও।"
 
-#: website/public/get-started/index.html:984
+#: website/public/get-started/index.html:1015
 msgctxt "page:get-started/index.html"
 msgid "Analyze another kind of software"
 msgstr "অন্য ধরনের সফটওয়্যার বিশ্লেষণ করুন"
 
-#: website/public/get-started/index.html:985
+#: website/public/get-started/index.html:1016
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose the section for your target. A provider is the local analysis tool "
@@ -13691,12 +13645,12 @@ msgstr ""
 "আপনার টার্গেটের অংশটি বেছে নিন। প্রোভাইডার হলো সেই লোকাল বিশ্লেষণ টুল, যা "
 "REA ওই ধরনের সফটওয়্যারের জন্য ব্যবহার করে।"
 
-#: website/public/get-started/index.html:990
+#: website/public/get-started/index.html:1021
 msgctxt "page:get-started/index.html"
 msgid "Native executables and libraries · Hopper, Ghidra or IDA"
 msgstr "নেটিভ এক্সিকিউটেবল ও লাইব্রেরি · Hopper, Ghidra বা IDA"
 
-#: website/public/get-started/index.html:993
+#: website/public/get-started/index.html:1024
 msgctxt "page:get-started/index.html"
 msgid ""
 "Install one analysis tool on the computer running REA. The host is your "
@@ -13705,47 +13659,47 @@ msgstr ""
 "যে কম্পিউটারে REA চলে সেখানে একটি বিশ্লেষণ টুল ইনস্টল করুন। হোস্ট হলো আপনার "
 "অপারেটিং সিস্টেম; টার্গেট হলো যে প্রোগ্রাম আপনি পরীক্ষা করতে চান।"
 
-#: website/public/get-started/index.html:1002
+#: website/public/get-started/index.html:1033
 msgctxt "page:get-started/index.html"
 msgid "Provider"
 msgstr "প্রোভাইডার"
 
-#: website/public/get-started/index.html:1011
+#: website/public/get-started/index.html:1042
 msgctxt "page:get-started/index.html"
 msgid "Unavailable"
 msgstr "উপলব্ধ নয়"
 
-#: website/public/get-started/index.html:1013
+#: website/public/get-started/index.html:1044
 msgctxt "page:get-started/index.html"
 msgid "Supported distributions"
 msgstr "সমর্থিত ডিস্ট্রিবিউশন"
 
-#: website/public/get-started/index.html:1017
+#: website/public/get-started/index.html:1048
 msgctxt "page:get-started/index.html"
 msgid "x64 · experimental"
 msgstr "x64 · পরীক্ষামূলক"
 
-#: website/public/get-started/index.html:1023
+#: website/public/get-started/index.html:1054
 msgctxt "page:get-started/index.html"
 msgid "Verified profiles"
 msgstr "যাচাই করা প্রোফাইল"
 
-#: website/public/get-started/index.html:1024
+#: website/public/get-started/index.html:1055
 msgctxt "page:get-started/index.html"
 msgid "Verified headless profile"
 msgstr "যাচাই করা হেডলেস প্রোফাইল"
 
-#: website/public/get-started/index.html:1025
+#: website/public/get-started/index.html:1056
 msgctxt "page:get-started/index.html"
 msgid "See provider guide"
 msgstr "প্রোভাইডার গাইড দেখুন"
 
-#: website/public/get-started/index.html:1031
+#: website/public/get-started/index.html:1062
 msgctxt "page:get-started/index.html"
 msgid "Hopper · let setup install or connect it"
 msgstr "Hopper · সেটআপকে এটি ইনস্টল বা যুক্ত করতে দিন"
 
-#: website/public/get-started/index.html:1037
+#: website/public/get-started/index.html:1068
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose Hopper in setup and review its separate installation plan. On macOS, "
@@ -13756,7 +13710,7 @@ msgstr ""
 "Hopper প্রথমবার খুললে ডেমো মোড বেছে নিন বা আপনার লাইসেন্স সক্রিয় করুন। "
 "Linux-এ সেটআপ সমর্থিত ডেমো ও এর প্রাইভেট ডিসপ্লে প্রস্তুত করে।"
 
-#: website/public/get-started/index.html:1043
+#: website/public/get-started/index.html:1074
 msgctxt "page:get-started/index.html"
 msgid ""
 "Linux hosts: Ubuntu 24.04+, Fedora 41+, Nobara 44+, Arch Linux, CachyOS or "
@@ -13765,7 +13719,7 @@ msgstr ""
 "Linux হোস্ট: Ubuntu 24.04+, Fedora 41+, Nobara 44+, Arch Linux, CachyOS বা "
 "Omarchy। Hopper বাণিজ্যিক সফটওয়্যার; এর ডেমোর সীমা নির্মাতা নির্ধারণ করে।"
 
-#: website/public/get-started/index.html:1062
+#: website/public/get-started/index.html:1093
 msgctxt "page:get-started/index.html"
 msgid ""
 "If macOS asks for Automation permission, allow the app that starts REA in "
@@ -13779,18 +13733,18 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#hopper"
 #. >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1067
+#: website/public/get-started/index.html:1098
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Hopper setup and troubleshooting{ph1}"
 msgstr "{ph0}Hopper সেটআপ ও সমস্যা সমাধান{ph1}"
 
-#: website/public/get-started/index.html:1075
+#: website/public/get-started/index.html:1106
 msgctxt "page:get-started/index.html"
 msgid "Ghidra · install the free analysis tool and Java"
 msgstr "Ghidra · বিনামূল্যের বিশ্লেষণ টুল ও Java ইনস্টল করুন"
 
-#: website/public/get-started/index.html:1079
+#: website/public/get-started/index.html:1110
 msgctxt "page:get-started/index.html"
 msgid ""
 "Install a 64-bit JDK 21 or newer, including the Java compiler. Choose the "
@@ -13800,7 +13754,7 @@ msgstr ""
 "কম্পিউটারের আর্কিটেকচারের সঙ্গে মেলে এমন প্যাকেজ বেছে নিন।"
 
 #. {ph0}: <code>ghidra_…_PUBLIC_….zip</code>
-#: website/public/get-started/index.html:1084
+#: website/public/get-started/index.html:1115
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13813,7 +13767,7 @@ msgstr ""
 #. {ph0}: <code>ghidraRun</code>
 #. {ph1}: <code>ghidraRun.bat</code>
 #. {ph2}: <code>GHIDRA_INSTALL_DIR</code>
-#: website/public/get-started/index.html:1089
+#: website/public/get-started/index.html:1120
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13829,7 +13783,7 @@ msgstr ""
 #. href="https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build"
 #. >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:1095
+#: website/public/get-started/index.html:1126
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Download a JDK{ph1} · {ph2}Download Ghidra 12.1.4{ph3}"
@@ -13838,7 +13792,7 @@ msgstr ""
 
 #. {ph0}: <code>java.home</code>
 #. {ph1}: <code>JAVA_HOME</code>
-#: website/public/get-started/index.html:1105
+#: website/public/get-started/index.html:1136
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13848,7 +13802,7 @@ msgstr ""
 "Java যাচাই করুন। প্রথম কমান্ডটি {ph0} দেখায়; {ph1}-এর জন্য সেই ফোল্ডার "
 "ব্যবহার করুন। দ্বিতীয়টি নিশ্চিত করে যে কম্পাইলার ইনস্টল করা আছে:"
 
-#: website/public/get-started/index.html:1172
+#: website/public/get-started/index.html:1203
 msgctxt "page:get-started/index.html"
 msgid ""
 "Replace both paths with your existing installations. For a fresh macOS or "
@@ -13858,12 +13812,12 @@ msgstr ""
 "দুটি পাথই আপনার বিদ্যমান ইনস্টলেশন দিয়ে বদলে দিন। নতুন macOS বা Linux arm64"
 " ইনস্টলেশনে এগোনোর আগে আপনার কম্পিউটারের জন্য নেটিভ ডিকম্পাইলার বিল্ড করুন।"
 
-#: website/public/get-started/index.html:1178
+#: website/public/get-started/index.html:1209
 msgctxt "page:get-started/index.html"
 msgid "Build Ghidra's native decompiler"
 msgstr "Ghidra-র নেটিভ ডিকম্পাইলার বিল্ড করুন"
 
-#: website/public/get-started/index.html:1179
+#: website/public/get-started/index.html:1210
 msgctxt "page:get-started/index.html"
 msgid ""
 "On macOS, the build needs Xcode Command Line Tools, make and bison. Use the "
@@ -13876,7 +13830,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#missing-
 #. macos-native-decompiler" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1184
+#: website/public/get-started/index.html:1215
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}macOS · Intel{ph1}"
@@ -13886,7 +13840,7 @@ msgstr "{ph0}macOS · Intel{ph1}"
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#macos-
 #. arm64-native-decompiler" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1190
+#: website/public/get-started/index.html:1221
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}macOS · Apple Silicon{ph1}"
@@ -13896,19 +13850,19 @@ msgstr "{ph0}macOS · Apple Silicon{ph1}"
 #. href="https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.1.4_build/GhidraDocs/GettingStarted.md#building-
 #. native-components" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1196
+#: website/public/get-started/index.html:1227
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Linux arm64 · native build instructions{ph1}"
 msgstr "{ph0}Linux arm64 · নেটিভ বিল্ডের নির্দেশনা{ph1}"
 
-#: website/public/get-started/index.html:1204
+#: website/public/get-started/index.html:1235
 msgctxt "page:get-started/index.html"
 msgid "Then check Ghidra and save its paths for your client:"
 msgstr ""
 "তারপর Ghidra যাচাই করুন এবং আপনার ক্লায়েন্টের জন্য এর পাথগুলো সংরক্ষণ করুন:"
 
-#: website/public/get-started/index.html:1221
+#: website/public/get-started/index.html:1252
 msgctxt "page:get-started/index.html"
 msgid ""
 "Keep these commands in the same terminal session. Rerun setup after setting "
@@ -13925,7 +13879,7 @@ msgstr ""
 #. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/windows-
 #. ghidra-p0.md" >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:1226
+#: website/public/get-started/index.html:1257
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13935,12 +13889,12 @@ msgstr ""
 "{ph0}Ghidra সেটআপ ও আর্কিটেকচারের প্রয়োজনীয়তা{ph1} · {ph2}Windows Ghidra "
 "গাইড{ph3}"
 
-#: website/public/get-started/index.html:1239
+#: website/public/get-started/index.html:1270
 msgctxt "page:get-started/index.html"
 msgid "IDA · connect an existing installation"
 msgstr "IDA · বিদ্যমান ইনস্টলেশন যুক্ত করুন"
 
-#: website/public/get-started/index.html:1240
+#: website/public/get-started/index.html:1271
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the IDA provider guide to prepare an upstream MCP registration. Choose "
@@ -13951,7 +13905,7 @@ msgstr ""
 "মূল বাইনারি খোলা অবস্থায় একটি সংযুক্ত GUI, অথবা প্রাইভেট ডেটাবেস খোলে এমন "
 "একটি হেডলেস সুপারভাইজার বেছে নিন।"
 
-#: website/public/get-started/index.html:1245
+#: website/public/get-started/index.html:1276
 msgctxt "page:get-started/index.html"
 msgid ""
 "Verified profiles include the Windows legacy GUI and headless supervisor, "
@@ -13967,7 +13921,7 @@ msgstr ""
 #. setup" >
 #. {ph1}: </a >
 #. {ph2}: <code>6.4.0</code>
-#: website/public/get-started/index.html:1251
+#: website/public/get-started/index.html:1282
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13981,7 +13935,7 @@ msgstr ""
 #. {ph0}: <code>node scripts/rea.mjs doctor --provider ida --json</code>
 #. {ph1}: <code>node scripts/rea.mjs setup</code>
 #. {ph2}: <code>npx</code>
-#: website/public/get-started/index.html:1260
+#: website/public/get-started/index.html:1291
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13990,14 +13944,14 @@ msgid ""
 msgstr ""
 "বিল্ড করা চেকআউট থেকে নিচের {ph2} কমান্ডগুলোর বদলে {ph0} ও {ph1} চালান।"
 
-#: website/public/get-started/index.html:1267
+#: website/public/get-started/index.html:1298
 msgctxt "page:get-started/index.html"
 msgid "Prepare the IDA registration file"
 msgstr "IDA রেজিস্ট্রেশন ফাইল প্রস্তুত করুন"
 
 #. {ph0}: <code>ida-mcp.json</code>
 #. {ph1}: <code>.txt</code>
-#: website/public/get-started/index.html:1268
+#: website/public/get-started/index.html:1299
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14012,7 +13966,7 @@ msgstr ""
 #. {ph0}: <code>idb_open</code>
 #. {ph1}: <code>idb_list</code>
 #. {ph2}: <code>idb_close</code>
-#: website/public/get-started/index.html:1275
+#: website/public/get-started/index.html:1306
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14025,7 +13979,7 @@ msgstr ""
 #. {ph0}: <code>command</code>
 #. {ph1}: <code>args</code>
 #. {ph2}: <code>env</code>
-#: website/public/get-started/index.html:1298
+#: website/public/get-started/index.html:1329
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14037,7 +13991,7 @@ msgstr ""
 "{ph2} ফাইলে কপি করুন। REA-কে পরীক্ষা করতে বলার আগে IDA-তে মূল বাইনারি খুলে "
 "এর আপস্ট্রিম প্লাগইন চালু করুন।"
 
-#: website/public/get-started/index.html:1340
+#: website/public/get-started/index.html:1371
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the JSON registration file you prepared with the provider guide, then "
@@ -14049,13 +14003,13 @@ msgstr ""
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/ida-
 #. provider.md" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1344
+#: website/public/get-started/index.html:1375
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}IDA profiles, registration examples and verified platforms{ph1}"
 msgstr "{ph0}IDA প্রোফাইল, রেজিস্ট্রেশনের উদাহরণ ও যাচাই করা প্ল্যাটফর্ম{ph1}"
 
-#: website/public/get-started/index.html:1352
+#: website/public/get-started/index.html:1383
 msgctxt "page:get-started/index.html"
 msgid ""
 "Once connected, give your agent the original executable's full path and name"
@@ -14065,7 +14019,7 @@ msgstr ""
 "প্রোভাইডারের নাম বলুন:"
 
 #. {ph0}: <code>/absolute/path/to/program</code>
-#: website/public/get-started/index.html:1357
+#: website/public/get-started/index.html:1388
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14079,18 +14033,18 @@ msgstr ""
 
 #. {ph0}: <a href="../guides/native/">
 #. {ph1}: </a>
-#: website/public/get-started/index.html:1364
+#: website/public/get-started/index.html:1395
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Follow a native analysis example{ph1}"
 msgstr "{ph0}একটি নেটিভ বিশ্লেষণের উদাহরণ অনুসরণ করুন{ph1}"
 
-#: website/public/get-started/index.html:1369
+#: website/public/get-started/index.html:1400
 msgctxt "page:get-started/index.html"
 msgid "Websites, Android, .NET, firmware and other targets"
 msgstr "ওয়েবসাইট, Android, .NET, ফার্মওয়্যার ও অন্যান্য টার্গেট"
 
-#: website/public/get-started/index.html:1372
+#: website/public/get-started/index.html:1403
 msgctxt "page:get-started/index.html"
 msgid ""
 "Open the guide for the target you have. Each guide gives the additional "
@@ -14099,120 +14053,120 @@ msgstr ""
 "আপনার টার্গেটের গাইডটি খুলুন। প্রতিটি গাইডে অতিরিক্ত টুল, সমর্থিত হোস্ট ও "
 "প্রথম কমান্ড দেওয়া আছে।"
 
-#: website/public/get-started/index.html:1380
+#: website/public/get-started/index.html:1411
 msgctxt "page:get-started/index.html"
 msgid "Target"
 msgstr "টার্গেট"
 
-#: website/public/get-started/index.html:1381
+#: website/public/get-started/index.html:1412
 msgctxt "page:get-started/index.html"
 msgid "Tools to prepare"
 msgstr "যে টুল প্রস্তুত রাখতে হবে"
 
-#: website/public/get-started/index.html:1382
+#: website/public/get-started/index.html:1413
 msgctxt "page:get-started/index.html"
 msgid "Guide"
 msgstr "গাইড"
 
-#: website/public/get-started/index.html:1387
+#: website/public/get-started/index.html:1418
 msgctxt "page:get-started/index.html"
 msgid "JavaScript / Electron"
 msgstr "JavaScript / Electron"
 
 #. {ph0}: <a href="../guides/javascript/">
 #. {ph1}: </a>
-#: website/public/get-started/index.html:1389
-#: website/public/get-started/index.html:1394
-#: website/public/get-started/index.html:1399
-#: website/public/get-started/index.html:1409
-#: website/public/get-started/index.html:1419
-#: website/public/get-started/index.html:1429
-#: website/public/get-started/index.html:1439
-#: website/public/get-started/index.html:1449
-#: website/public/get-started/index.html:1459
-#: website/public/get-started/index.html:1469
-#: website/public/get-started/index.html:1479
-#: website/public/get-started/index.html:1489
-#: website/public/get-started/index.html:1499
-#: website/public/get-started/index.html:1509
-#: website/public/get-started/index.html:1519
-#: website/public/get-started/index.html:1529
+#: website/public/get-started/index.html:1420
+#: website/public/get-started/index.html:1425
+#: website/public/get-started/index.html:1430
+#: website/public/get-started/index.html:1440
+#: website/public/get-started/index.html:1450
+#: website/public/get-started/index.html:1460
+#: website/public/get-started/index.html:1470
+#: website/public/get-started/index.html:1480
+#: website/public/get-started/index.html:1490
+#: website/public/get-started/index.html:1500
+#: website/public/get-started/index.html:1510
+#: website/public/get-started/index.html:1520
+#: website/public/get-started/index.html:1530
+#: website/public/get-started/index.html:1540
+#: website/public/get-started/index.html:1550
+#: website/public/get-started/index.html:1560
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Open guide{ph1}"
 msgstr "{ph0}গাইড খুলুন{ph1}"
 
-#: website/public/get-started/index.html:1392
+#: website/public/get-started/index.html:1423
 msgctxt "page:get-started/index.html"
 msgid "Website"
 msgstr "ওয়েবসাইট"
 
-#: website/public/get-started/index.html:1397
+#: website/public/get-started/index.html:1428
 msgctxt "page:get-started/index.html"
 msgid ".NET / Flutter / packages"
 msgstr ".NET / Flutter / প্যাকেজ"
 
-#: website/public/get-started/index.html:1407
+#: website/public/get-started/index.html:1438
 msgctxt "page:get-started/index.html"
 msgid "Android APK"
 msgstr "Android APK"
 
-#: website/public/get-started/index.html:1417
+#: website/public/get-started/index.html:1448
 msgctxt "page:get-started/index.html"
 msgid "Android device"
 msgstr "Android ডিভাইস"
 
-#: website/public/get-started/index.html:1427
+#: website/public/get-started/index.html:1458
 msgctxt "page:get-started/index.html"
 msgid "Android resources"
 msgstr "Android রিসোর্স"
 
-#: website/public/get-started/index.html:1437
+#: website/public/get-started/index.html:1468
 msgctxt "page:get-started/index.html"
 msgid "JEB project"
 msgstr "JEB প্রজেক্ট"
 
-#: website/public/get-started/index.html:1447
+#: website/public/get-started/index.html:1478
 msgctxt "page:get-started/index.html"
 msgid "Firmware"
 msgstr "ফার্মওয়্যার"
 
-#: website/public/get-started/index.html:1457
+#: website/public/get-started/index.html:1488
 msgctxt "page:get-started/index.html"
 msgid "WASM"
 msgstr "WASM"
 
-#: website/public/get-started/index.html:1467
+#: website/public/get-started/index.html:1498
 msgctxt "page:get-started/index.html"
 msgid "SQLite database"
 msgstr "SQLite ডেটাবেস"
 
-#: website/public/get-started/index.html:1477
+#: website/public/get-started/index.html:1508
 msgctxt "page:get-started/index.html"
 msgid "EVM bytecode"
 msgstr "EVM বাইটকোড"
 
-#: website/public/get-started/index.html:1487
+#: website/public/get-started/index.html:1518
 msgctxt "page:get-started/index.html"
 msgid "ELF / Linux crash"
 msgstr "ELF / Linux ক্র্যাশ"
 
-#: website/public/get-started/index.html:1497
+#: website/public/get-started/index.html:1528
 msgctxt "page:get-started/index.html"
 msgid "HAR / SAZ / mitmproxy"
 msgstr "HAR / SAZ / mitmproxy"
 
-#: website/public/get-started/index.html:1507
+#: website/public/get-started/index.html:1538
 msgctxt "page:get-started/index.html"
 msgid "PCAP / PCAPNG"
 msgstr "PCAP / PCAPNG"
 
-#: website/public/get-started/index.html:1517
+#: website/public/get-started/index.html:1548
 msgctxt "page:get-started/index.html"
 msgid "Logic signals"
 msgstr "লজিক সিগন্যাল"
 
-#: website/public/get-started/index.html:1527
+#: website/public/get-started/index.html:1558
 msgctxt "page:get-started/index.html"
 msgid "Process behavior"
 msgstr "প্রসেসের আচরণ"
@@ -14228,7 +14182,7 @@ msgstr "প্রসেসের আচরণ"
 #. {ph5}: </a >
 #. {ph6}: <a href="../guides/">
 #. {ph7}: </a>
-#: website/public/get-started/index.html:1539
+#: website/public/get-started/index.html:1570
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14238,18 +14192,18 @@ msgstr ""
 "{ph0}Flutter গাইড{ph1} · {ph2}প্যাকেজ ও রিসোর্স{ph3} · {ph4}EVM বাইটকোড{ph5}"
 " · {ph6}সব অনুসন্ধান গাইড{ph7}"
 
-#: website/public/get-started/index.html:1559
+#: website/public/get-started/index.html:1590
 msgctxt "page:get-started/index.html"
 msgid "Use REA from a terminal"
 msgstr "টার্মিনাল থেকে REA ব্যবহার করুন"
 
-#: website/public/get-started/index.html:1561
+#: website/public/get-started/index.html:1592
 msgctxt "page:get-started/index.html"
 msgid "CLI commands, global installation and curl"
 msgstr "CLI কমান্ড, গ্লোবাল ইনস্টল ও curl"
 
 #. {ph0}: <code>main</code>
-#: website/public/get-started/index.html:1658
+#: website/public/get-started/index.html:1689
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14259,7 +14213,7 @@ msgstr ""
 "{ph0}-এর জায়গায় টার্গেটের ফাংশন তালিকা থেকে একটি ফাংশনের নাম বা ঠিকানা "
 "দিন। আগে Ghidra কনফিগার করা থাকতে হবে।"
 
-#: website/public/get-started/index.html:1662
+#: website/public/get-started/index.html:1693
 msgctxt "page:get-started/index.html"
 msgid ""
 "On macOS or Linux, you can also use the curl installer after preparing "
@@ -14268,7 +14222,7 @@ msgstr ""
 "macOS বা Linux-এ Node.js প্রস্তুত করার পর curl ইনস্টলারও ব্যবহার করতে পারেন:"
 
 #. {ph0}: <code>rea setup</code>
-#: website/public/get-started/index.html:1680
+#: website/public/get-started/index.html:1711
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14280,7 +14234,7 @@ msgstr ""
 
 #. {ph0}: <code>rea</code>
 #. {ph1}: <code>"$HOME/.local/bin/rea" setup</code>
-#: website/public/get-started/index.html:1684
+#: website/public/get-started/index.html:1715
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14290,7 +14244,7 @@ msgstr ""
 "আপনার শেল {ph0} খুঁজে না পেলে ইনস্টলারের দেখানো এক্সিকিউটেবল পাথ ব্যবহার "
 "করুন। Linux-এ ডিফল্ট সেটআপ কমান্ড হলো {ph1}।"
 
-#: website/public/get-started/index.html:1700
+#: website/public/get-started/index.html:1731
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the client check in step 3 with your setup ID. In editor clients, enable"
@@ -14300,12 +14254,12 @@ msgstr ""
 "ক্লায়েন্টে MCP সেটিংসে REA চালু করুন এবং এজেন্ট চ্যাটে এর টুলগুলোকে অনুমতি "
 "দিন।"
 
-#: website/public/get-started/index.html:1728
+#: website/public/get-started/index.html:1759
 msgctxt "page:get-started/index.html"
 msgid "Windows, WSL and paths with spaces"
 msgstr "Windows, WSL ও স্পেসযুক্ত পাথ"
 
-#: website/public/get-started/index.html:1729
+#: website/public/get-started/index.html:1760
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use Windows PowerShell for Windows clients and analysis tools. If your agent"
@@ -14316,17 +14270,17 @@ msgstr ""
 "আপনার এজেন্ট WSL-এর ভেতরে চললে সেই Linux পরিবেশেই Node.js ও REA ইনস্টল করুন "
 "এবং সেখানে Linux পাথ ব্যবহার করুন। হেডলেস প্রোভাইডার REA-র একই হোস্টে চলে।"
 
-#: website/public/get-started/index.html:1738
+#: website/public/get-started/index.html:1769
 msgctxt "page:get-started/index.html"
 msgid "Windows setup command:"
 msgstr "Windows সেটআপ কমান্ড:"
 
-#: website/public/get-started/index.html:1755
+#: website/public/get-started/index.html:1786
 msgctxt "page:get-started/index.html"
 msgid "Update or remove REA"
 msgstr "REA হালনাগাদ বা অপসারণ করুন"
 
-#: website/public/get-started/index.html:1756
+#: website/public/get-started/index.html:1787
 msgctxt "page:get-started/index.html"
 msgid ""
 "To refresh your agent connection, run the latest setup command again, review"
@@ -14337,7 +14291,7 @@ msgstr ""
 
 #. {ph0}: <code>rea update</code>
 #. {ph1}: <code>npx rea-agents@latest uninstall</code>
-#: website/public/get-started/index.html:1774
+#: website/public/get-started/index.html:1805
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14351,7 +14305,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#diagnose-
 #. update-and-remove" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1780
+#: website/public/get-started/index.html:1811
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Update and uninstall details{ph1}"
@@ -14370,27 +14324,27 @@ msgstr "Windows REA সেটআপ কমান্ড কপি করুন"
 #: website/public/get-started/index.html:552
 #: website/public/get-started/index.html:584
 #: website/public/get-started/index.html:613
-#: website/public/get-started/index.html:748
-#: website/public/get-started/index.html:803
-#: website/public/get-started/index.html:818
-#: website/public/get-started/index.html:866
-#: website/public/get-started/index.html:1051
-#: website/public/get-started/index.html:1113
-#: website/public/get-started/index.html:1136
-#: website/public/get-started/index.html:1160
-#: website/public/get-started/index.html:1208
-#: website/public/get-started/index.html:1283
-#: website/public/get-started/index.html:1309
-#: website/public/get-started/index.html:1326
-#: website/public/get-started/index.html:1647
-#: website/public/get-started/index.html:1669
-#: website/public/get-started/index.html:1742
-#: website/public/get-started/index.html:1763
+#: website/public/get-started/index.html:779
+#: website/public/get-started/index.html:834
+#: website/public/get-started/index.html:849
+#: website/public/get-started/index.html:897
+#: website/public/get-started/index.html:1082
+#: website/public/get-started/index.html:1144
+#: website/public/get-started/index.html:1167
+#: website/public/get-started/index.html:1191
+#: website/public/get-started/index.html:1239
+#: website/public/get-started/index.html:1314
+#: website/public/get-started/index.html:1340
+#: website/public/get-started/index.html:1357
+#: website/public/get-started/index.html:1678
+#: website/public/get-started/index.html:1700
+#: website/public/get-started/index.html:1773
+#: website/public/get-started/index.html:1794
 msgctxt "page:get-started/index.html"
 msgid "Copy command"
 msgstr "কমান্ড কপি করুন"
 
-#: website/public/get-started/index.html:899
+#: website/public/get-started/index.html:930
 msgctxt "page:get-started/index.html"
 msgid "Copy Notes investigation prompt"
 msgstr "Notes অনুসন্ধানের প্রম্পট কপি করুন"
@@ -14761,12 +14715,12 @@ msgstr "সেটআপের বিকল্প"
 #: website/public/examples/dino-lab/index.html:477
 #: website/public/faq/index.html:575
 #: website/public/first-investigation/index.html:536
-#: website/public/get-started/index.html:1819
+#: website/public/get-started/index.html:1850
 #: website/public/guides/browser/index.html:509
 #: website/public/guides/index.html:303
-#: website/public/guides/javascript/index.html:505
-#: website/public/guides/native/index.html:511
-#: website/public/guides/rl-environments/index.html:498
+#: website/public/guides/javascript/index.html:513
+#: website/public/guides/native/index.html:513
+#: website/public/guides/rl-environments/index.html:500
 #: website/public/index.html:1305 website/public/showcase/aegis/index.html:810
 #: website/public/showcase/ctf/index.html:779
 #: website/public/showcase/dx-ball/index.html:787
@@ -14932,8 +14886,8 @@ msgstr ""
 #: website/public/guides/javascript/index.html:98
 #: website/public/guides/native/index.html:85
 #: website/public/guides/native/index.html:98
-#: website/public/guides/rl-environments/index.html:83
-#: website/public/guides/rl-environments/index.html:96
+#: website/public/guides/rl-environments/index.html:85
+#: website/public/guides/rl-environments/index.html:98
 #: website/public/index.html:85 website/public/index.html:98
 #: website/public/showcase/aegis/index.html:85
 #: website/public/showcase/aegis/index.html:98
@@ -14998,27 +14952,27 @@ msgctxt "page:guides/index.html"
 msgid "Build an RL environment"
 msgstr "একটি RL এনভায়রনমেন্ট তৈরি করুন"
 
-#: website/public/guides/rl-environments/index.html:111
+#: website/public/guides/rl-environments/index.html:113
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Skip to content"
-msgstr ""
+msgstr "মূল কনটেন্টে যান"
 
 #. {ph0}: <a href="../../">
 #. {ph1}: </a>
 #. {ph2}: <a href="../">
 #. {ph3}: </a>
-#: website/public/guides/rl-environments/index.html:201
+#: website/public/guides/rl-environments/index.html:203
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Home{ph1} / {ph2}Guides{ph3} / RL environments"
-msgstr ""
+msgstr "{ph0}হোম{ph1} / {ph2}গাইড{ph3} / RL এনভায়রনমেন্ট"
 
-#: website/public/guides/rl-environments/index.html:204
+#: website/public/guides/rl-environments/index.html:206
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Build RL environments."
 msgstr "RL এনভায়রনমেন্ট তৈরি করুন।"
 
-#: website/public/guides/rl-environments/index.html:205
+#: website/public/guides/rl-environments/index.html:207
 #: website/public/guides/rl-environments/index.html:7
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15030,80 +14984,80 @@ msgstr ""
 
 #. {ph0}: <a href="https://x.com/reatools/status/2112574822584918075?s=20" >
 #. {ph1}: </a >
-#: website/public/guides/rl-environments/index.html:209
+#: website/public/guides/rl-environments/index.html:211
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}Watch the announcement video on X{ph1}"
-msgstr ""
+msgstr "{ph0}X-এ ঘোষণার ভিডিও দেখুন{ph1}"
 
-#: website/public/guides/rl-environments/index.html:217
-#: website/public/guides/rl-environments/index.html:216
+#: website/public/guides/rl-environments/index.html:219
+#: website/public/guides/rl-environments/index.html:218
 msgctxt "page:guides/rl-environments/index.html"
 msgid "On this page"
-msgstr ""
+msgstr "এই পেজে"
 
 #. {ph0}: <a href="#workflow">
-#. {ph1}: </a>
-#: website/public/guides/rl-environments/index.html:219
-#, python-brace-format
-msgctxt "page:guides/rl-environments/index.html"
-msgid "{ph0}What REA builds{ph1}"
-msgstr ""
-
-#. {ph0}: <a href="#prepare">
-#. {ph1}: </a>
-#: website/public/guides/rl-environments/index.html:220
-#, python-brace-format
-msgctxt "page:guides/rl-environments/index.html"
-msgid "{ph0}Before you start{ph1}"
-msgstr ""
-
-#. {ph0}: <a href="#record">
 #. {ph1}: </a>
 #: website/public/guides/rl-environments/index.html:221
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
-msgid "{ph0}Record with your agent{ph1}"
-msgstr ""
+msgid "{ph0}What REA builds{ph1}"
+msgstr "{ph0}REA কী তৈরি করে{ph1}"
 
-#. {ph0}: <a href="#build">
+#. {ph0}: <a href="#prepare">
 #. {ph1}: </a>
 #: website/public/guides/rl-environments/index.html:222
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
-msgid "{ph0}Use a saved recording{ph1}"
-msgstr ""
+msgid "{ph0}Before you start{ph1}"
+msgstr "{ph0}শুরুর আগে{ph1}"
 
-#. {ph0}: <a href="#run">
+#. {ph0}: <a href="#record">
 #. {ph1}: </a>
 #: website/public/guides/rl-environments/index.html:223
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
-msgid "{ph0}Run the environment{ph1}"
-msgstr ""
+msgid "{ph0}Record with your agent{ph1}"
+msgstr "{ph0}আপনার agent দিয়ে রেকর্ড করুন{ph1}"
 
-#. {ph0}: <a href="#tasks">
+#. {ph0}: <a href="#build">
 #. {ph1}: </a>
 #: website/public/guides/rl-environments/index.html:224
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
-msgid "{ph0}Add tasks and rewards{ph1}"
-msgstr ""
+msgid "{ph0}Use a saved recording{ph1}"
+msgstr "{ph0}সংরক্ষিত রেকর্ডিং ব্যবহার করুন{ph1}"
 
-#. {ph0}: <a href="#check">
+#. {ph0}: <a href="#run">
 #. {ph1}: </a>
 #: website/public/guides/rl-environments/index.html:225
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
-msgid "{ph0}Check what works{ph1}"
-msgstr ""
+msgid "{ph0}Run the environment{ph1}"
+msgstr "{ph0}এনভায়রনমেন্ট চালান{ph1}"
 
-#: website/public/guides/rl-environments/index.html:230
+#. {ph0}: <a href="#tasks">
+#. {ph1}: </a>
+#: website/public/guides/rl-environments/index.html:226
+#, python-brace-format
+msgctxt "page:guides/rl-environments/index.html"
+msgid "{ph0}Add tasks and rewards{ph1}"
+msgstr "{ph0}task ও reward যোগ করুন{ph1}"
+
+#. {ph0}: <a href="#check">
+#. {ph1}: </a>
+#: website/public/guides/rl-environments/index.html:227
+#, python-brace-format
+msgctxt "page:guides/rl-environments/index.html"
+msgid "{ph0}Check what works{ph1}"
+msgstr "{ph0}কী কাজ করে তা যাচাই করুন{ph1}"
+
+#: website/public/guides/rl-environments/index.html:232
 msgctxt "page:guides/rl-environments/index.html"
 msgid "What REA builds"
-msgstr ""
+msgstr "REA কী তৈরি করে"
 
-#: website/public/guides/rl-environments/index.html:231
+#: website/public/guides/rl-environments/index.html:233
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "An agent can practice finding an issue, creating a folder, or editing a "
@@ -15111,6 +15065,10 @@ msgid ""
 "calls, the local data those tools use, and a basic test that checks the "
 "environment starts and responds."
 msgstr ""
+"একটি agent মূল অ্যাপ না চালিয়েই issue খুঁজে বের করা, ফোল্ডার তৈরি করা বা "
+"একটি record সম্পাদনার অনুশীলন করতে পারে। REA সেই tool তৈরি করে যা agent কল "
+"করে, সেই tool যে local ডেটা ব্যবহার করে, এবং একটি সাধারণ test যা যাচাই করে "
+"এনভায়রনমেন্ট চালু হয় ও সাড়া দেয়।"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -15118,13 +15076,15 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/guides/rl-environments/index.html:239
+#: website/public/guides/rl-environments/index.html:241
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "{ph0}01 · Record{ph1}{ph2}Use a test app{ph3}{ph4}Capture requests, "
 "responses, and the results of changes.{ph5}"
 msgstr ""
+"{ph0}01 · রেকর্ড{ph1}{ph2}একটি test অ্যাপ ব্যবহার করুন{ph3}{ph4}Request, "
+"response এবং পরিবর্তনের ফলাফল ধরে রাখুন।{ph5}"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -15132,7 +15092,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/guides/rl-environments/index.html:247
+#: website/public/guides/rl-environments/index.html:249
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15140,6 +15100,9 @@ msgid ""
 "state{ph3}{ph4}Export a runnable AgentEnv folder with the recording and a "
 "test.{ph5}"
 msgstr ""
+"{ph0}02 · REA দিয়ে তৈরি করুন{ph1}{ph2}Tool ও local state তৈরি "
+"করুন{ph3}{ph4}রেকর্ডিং ও একটি testসহ চালানোযোগ্য AgentEnv ফোল্ডার export "
+"করুন।{ph5}"
 
 #. {ph0}: <span class="flow-label">
 #. {ph1}: </span >
@@ -15147,7 +15110,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="flow-note" >
 #. {ph5}: </span >
-#: website/public/guides/rl-environments/index.html:255
+#: website/public/guides/rl-environments/index.html:257
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15155,22 +15118,27 @@ msgid ""
 "agent{ph3}{ph4}Add task goals and reward checks for evaluation or RL "
 "training.{ph5}"
 msgstr ""
+"{ph0}03 · AgentEnv দিয়ে চালান{ph1}{ph2}এনভায়রনমেন্টটি একটি agent-কে "
+"দিন{ph3}{ph4}মূল্যায়ন বা RL training-এর জন্য task-এর লক্ষ্য ও reward check "
+"যোগ করুন।{ph5}"
 
-#: website/public/guides/rl-environments/index.html:265
+#: website/public/guides/rl-environments/index.html:267
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "The recording determines which operations the environment can support. "
 "Changes are supported when the recording confirms their effects."
 msgstr ""
+"কোন operation এনভায়রনমেন্ট সমর্থন করতে পারবে তা রেকর্ডিং নির্ধারণ করে। "
+"রেকর্ডিং যখন পরিবর্তনের প্রভাব নিশ্চিত করে, তখনই সেই পরিবর্তন সমর্থিত হয়।"
 
-#: website/public/guides/rl-environments/index.html:273
+#: website/public/guides/rl-environments/index.html:275
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Before you start"
-msgstr ""
+msgstr "শুরুর আগে"
 
 #. {ph0}: <a href="../../get-started/">
 #. {ph1}: </a >
-#: website/public/guides/rl-environments/index.html:274
+#: website/public/guides/rl-environments/index.html:276
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15179,11 +15147,15 @@ msgid ""
 "create, edit, and delete data. REA records the app you provide; you start it"
 " and prepare its test data."
 msgstr ""
+"{ph0}আপনার coding agent-এর সঙ্গে REA সেট আপ করুন{ph1}। অ্যাপ রেকর্ড করতে "
+"একটি Chrome-ঘরানার ব্রাউজার এবং চলমান একটি test instance রাখুন, যেখানে agent"
+" ডেটা তৈরি, সম্পাদনা ও মুছতে পারে। REA আপনার দেওয়া অ্যাপটি রেকর্ড করে; "
+"অ্যাপ চালানো ও তার test ডেটা প্রস্তুত করার কাজ আপনার।"
 
 #. {ph0}: <a href="https://github.com/scaleapi/agentenv-framework#install" >
 #. {ph1}: </a >
 #. {ph2}: <code>0.9.1334</code>
-#: website/public/guides/rl-environments/index.html:281
+#: website/public/guides/rl-environments/index.html:283
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15191,18 +15163,23 @@ msgid ""
 "and start Docker. REA's compatibility check uses AgentEnv version {ph2} with"
 " Python 3.12."
 msgstr ""
+"Export করা এনভায়রনমেন্ট চালাতে {ph0}AgentEnv framework{ph1} ইনস্টল করুন এবং"
+" Docker চালু করুন। REA-এর সামঞ্জস্য যাচাই AgentEnv সংস্করণ {ph2} ও Python "
+"3.12 ব্যবহার করে।"
 
-#: website/public/guides/rl-environments/index.html:291
+#: website/public/guides/rl-environments/index.html:293
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Record and build with your agent"
-msgstr ""
+msgstr "আপনার agent দিয়ে রেকর্ড ও তৈরি করুন"
 
-#: website/public/guides/rl-environments/index.html:292
+#: website/public/guides/rl-environments/index.html:294
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Tell your agent which app and operations to cover. For an app with folders, "
 "adapt this example:"
 msgstr ""
+"আপনার agent-কে বলুন কোন অ্যাপ ও কোন operation কভার করতে হবে। ফোল্ডার আছে এমন"
+" অ্যাপের জন্য এই উদাহরণটি মানিয়ে নিন:"
 
 #. {ph0}: <span class="terminal-dots" aria-hidden="true" >
 #. {ph1}: <i>
@@ -15212,20 +15189,20 @@ msgstr ""
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/guides/rl-environments/index.html:298
-#: website/public/guides/rl-environments/index.html:415
+#: website/public/guides/rl-environments/index.html:300
+#: website/public/guides/rl-environments/index.html:417
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Your coding agent"
-msgstr ""
+msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}আপনার coding agent"
 
-#: website/public/guides/rl-environments/index.html:302
-#: website/public/guides/rl-environments/index.html:347
-#: website/public/guides/rl-environments/index.html:382
-#: website/public/guides/rl-environments/index.html:419
+#: website/public/guides/rl-environments/index.html:304
+#: website/public/guides/rl-environments/index.html:349
+#: website/public/guides/rl-environments/index.html:384
+#: website/public/guides/rl-environments/index.html:421
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy"
-msgstr ""
+msgstr "কপি"
 
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
@@ -15237,7 +15214,7 @@ msgstr ""
 #. {ph7}: </span >
 #. {ph8}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph9}: </span>
-#: website/public/guides/rl-environments/index.html:311
+#: website/public/guides/rl-environments/index.html:313
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15248,9 +15225,15 @@ msgid ""
 " {ph6}, which does not exist yet. Check which operations are supported and "
 "report any gaps.{ph7}{ph8}{ph9}"
 msgstr ""
+"{ph0}›{ph1}{ph2}আমার test web app {ph3} থেকে REA দিয়ে একটি AgentEnv "
+"এনভায়রনমেন্ট তৈরি করো। ফোল্ডারের তালিকা, তৈরি, নাম বদলানো ও মুছে ফেলা কভার "
+"করো। Test ফোল্ডার তৈরি ও সরাতে পারো; বিদ্যমান ডেটা অপরিবর্তিত রাখো। {ph4}-এর"
+" পাসওয়ার্ড দিয়ে admin হিসেবে সাইন ইন করো। ব্রাউজার {ph5}-এ ব্যবহার করো এবং"
+" {ph6}-এ export করো, যে ফোল্ডারটি এখনো নেই। কোন operation সমর্থিত তা যাচাই "
+"করে ফাঁকগুলো জানাও।{ph7}{ph8}{ph9}"
 
 #. {ph0}: <code>APP_PASSWORD</code>
-#: website/public/guides/rl-environments/index.html:326
+#: website/public/guides/rl-environments/index.html:328
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15258,10 +15241,13 @@ msgid ""
 "in the environment that starts REA's MCP server so the password stays out of"
 " the prompt."
 msgstr ""
+"উদাহরণ prompt। URL, operation, অ্যাকাউন্ট ও path বদলে নিন। REA-এর MCP server"
+" চালু করা environment-এ {ph0} সেট করুন, যাতে পাসওয়ার্ড prompt-এর বাইরে "
+"থাকে।"
 
 #. {ph0}: <a href="#run">
 #. {ph1}: </a>
-#: website/public/guides/rl-environments/index.html:331
+#: website/public/guides/rl-environments/index.html:333
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15269,28 +15255,34 @@ msgid ""
 "operations, and exports the environment. After export, continue with "
 "{ph0}running the environment{ph1}."
 msgstr ""
+"আপনার agent অ্যাপটি পরীক্ষা করে, একটি session রেকর্ড করে, সমর্থিত operation "
+"যাচাই করে এবং এনভায়রনমেন্ট export করে। Export-এর পর {ph0}এনভায়রনমেন্ট "
+"চালানো{ph1}-র ধাপে যান।"
 
-#: website/public/guides/rl-environments/index.html:338
+#: website/public/guides/rl-environments/index.html:340
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Or use a saved recording"
-msgstr ""
+msgstr "অথবা সংরক্ষিত রেকর্ডিং ব্যবহার করুন"
 
-#: website/public/guides/rl-environments/index.html:339
+#: website/public/guides/rl-environments/index.html:341
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "A HAR file records a browser's network requests and responses. Export one "
 "with API response bodies from the browser's network panel, then build into a"
 " new or empty folder:"
 msgstr ""
+"একটি HAR ফাইল ব্রাউজারের network request ও response রেকর্ড করে। ব্রাউজারের "
+"network panel থেকে API response body-সহ একটি ফাইল export করুন, তারপর একটি "
+"নতুন বা খালি ফোল্ডারে তৈরি করুন:"
 
-#: website/public/guides/rl-environments/index.html:346
+#: website/public/guides/rl-environments/index.html:348
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Build the environment"
-msgstr ""
+msgstr "এনভায়রনমেন্ট তৈরি করুন"
 
 #. {ph0}: <code>capture-browser-scenario</code>
 #. {ph1}: <code>--dry-run</code>
-#: website/public/guides/rl-environments/index.html:358
+#: website/public/guides/rl-environments/index.html:360
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15299,59 +15291,77 @@ msgid ""
 " build reads local data and writes the folder without contacting the app. "
 "Add {ph1} to review the report without writing files."
 msgstr ""
+"REA-এর {ph0} বা HAR পরীক্ষায় সেভ করা capture Evidence JSON-ও দেওয়া যায়। "
+"Evidence হলো উৎসের তথ্যসহ সংরক্ষিত রেকর্ডিং। Build local ডেটা পড়ে এবং "
+"অ্যাপের সঙ্গে যোগাযোগ না করেই ফোল্ডার লেখে। ফাইল না লিখে রিপোর্ট দেখতে {ph1}"
+" যোগ করুন।"
 
-#: website/public/guides/rl-environments/index.html:366
+#: website/public/guides/rl-environments/index.html:368
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "The report lists read operations, supported changes, and operations withheld"
 " because the recording did not establish their effects. Each withheld "
 "operation has a reason and a hint about what to record next."
 msgstr ""
+"রিপোর্টে read operation, সমর্থিত পরিবর্তন এবং যে operation আটকে রাখা হয়েছে "
+"তার তালিকা থাকে, কারণ রেকর্ডিং তাদের প্রভাব নিশ্চিত করেনি। আটকে রাখা প্রতিটি"
+" operation-এর একটি কারণ এবং পরবর্তীতে কী রেকর্ড করতে হবে তার ইঙ্গিত থাকে।"
 
-#: website/public/guides/rl-environments/index.html:374
+#: website/public/guides/rl-environments/index.html:376
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Run the environment"
-msgstr ""
+msgstr "এনভায়রনমেন্ট চালান"
 
-#: website/public/guides/rl-environments/index.html:375
+#: website/public/guides/rl-environments/index.html:377
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Whether your agent exported the folder or you built it from a recording, run"
 " it with AgentEnv:"
 msgstr ""
+"Agent ফোল্ডারটি export করুক বা আপনি রেকর্ডিং থেকে তৈরি করুন, AgentEnv দিয়ে "
+"এটি চালান:"
 
-#: website/public/guides/rl-environments/index.html:381
+#: website/public/guides/rl-environments/index.html:383
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Run the environment test"
-msgstr ""
+msgstr "এনভায়রনমেন্টের test চালান"
 
-#: website/public/guides/rl-environments/index.html:393
+#: website/public/guides/rl-environments/index.html:395
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Use the path your agent reported if it differs. The first run builds the "
 "container image and needs access to its image and package sources."
 msgstr ""
+"Agent অন্য path জানালে সেটি ব্যবহার করুন। প্রথমবার চালালে container image "
+"তৈরি হয় এবং তার image ও package উৎসে প্রবেশাধিকার লাগে।"
 
-#: website/public/guides/rl-environments/index.html:398
+#: website/public/guides/rl-environments/index.html:400
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "The included smoke task is a basic test. It checks the tool count and, when "
 "a suitable read tool exists, calls it and checks its response status. "
 "Passing it shows the environment starts and responds in that setup."
 msgstr ""
+"সঙ্গের smoke task একটি সাধারণ test। এটি tool-এর সংখ্যা যাচাই করে এবং উপযুক্ত"
+" read tool থাকলে সেটি কল করে তার response status দেখে। এটি পাস করলে বোঝা "
+"যায় এই সেটআপে এনভায়রনমেন্ট চালু হয় ও সাড়া দেয়।"
 
-#: website/public/guides/rl-environments/index.html:406
+#: website/public/guides/rl-environments/index.html:408
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Add tasks and reward checks"
-msgstr ""
+msgstr "task ও reward check যোগ করুন"
 
-#: website/public/guides/rl-environments/index.html:407
+#: website/public/guides/rl-environments/index.html:409
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Use the environment with your RL framework to define goals, score results, "
 "and run training. Your coding agent can help write the tasks and checks. "
 "Start with one operation the environment supports:"
 msgstr ""
+"লক্ষ্য নির্ধারণ, ফলাফলের স্কোর এবং training চালাতে আপনার RL framework-এর "
+"সঙ্গে এনভায়রনমেন্টটি ব্যবহার করুন। Task ও check লিখতে আপনার coding agent "
+"সাহায্য করতে পারে। এনভায়রনমেন্ট যে একটি operation সমর্থন করে, সেটি দিয়ে "
+"শুরু করুন:"
 
 #. {ph0}: <span class="prompt-symbol" aria-hidden="true">
 #. {ph1}: </span >
@@ -15359,7 +15369,7 @@ msgstr ""
 #. {ph3}: </span >
 #. {ph4}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph5}: </span>
-#: website/public/guides/rl-environments/index.html:428
+#: website/public/guides/rl-environments/index.html:430
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15369,18 +15379,26 @@ msgid ""
 "the result. Reset the environment before each run. Use the AgentEnv task and"
 " verifier formats.{ph3}{ph4}{ph5}"
 msgstr ""
+"{ph0}›{ph1}{ph2}এই export করা এনভায়রনমেন্ট ব্যবহার করে একটি AgentEnv task "
+"যোগ করো, যা একটি agent-কে Practice নামের ফোল্ডার তৈরি করতে বলে। "
+"এনভায়রনমেন্টের state দেখে নিশ্চিত করো যে সেই নামে ফোল্ডারটি আছে, এবং "
+"ফলাফলের স্কোর করতে এই check ব্যবহার করো। প্রতিটি run-এর আগে এনভায়রনমেন্ট "
+"reset করো। AgentEnv-এর task ও verifier ফরম্যাট ব্যবহার করো।{ph3}{ph4}{ph5}"
 
-#: website/public/guides/rl-environments/index.html:440
+#: website/public/guides/rl-environments/index.html:442
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Example prompt for an environment that supports folder creation. A task that"
 " changes data should check the resulting state; a retrieval task can check "
 "an answer against a recorded value."
 msgstr ""
+"ফোল্ডার তৈরি সমর্থন করে এমন এনভায়রনমেন্টের জন্য উদাহরণ prompt। যে task ডেটা"
+" বদলায়, সেটি বদলানোর পরের state যাচাই করা উচিত; যে task তথ্য আনে, সেটি "
+"রেকর্ড করা মানের সঙ্গে উত্তর মেলাতে পারে।"
 
 #. {ph0}: <a href="https://www.agentenvframework.com/docs" >
 #. {ph1}: </a >
-#: website/public/guides/rl-environments/index.html:445
+#: website/public/guides/rl-environments/index.html:447
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15388,13 +15406,16 @@ msgid ""
 "specific grading is added in the evaluation workflow. See the {ph0}AgentEnv "
 "documentation{ph1} for tasks, verifiers, and agent connections."
 msgstr ""
+"Export-এ চালানোযোগ্য এনভায়রনমেন্ট ও তার সাধারণ test থাকে। Task-ভিত্তিক "
+"grading মূল্যায়নের workflow-এ যোগ করা হয়। Task, verifier ও agent সংযোগের "
+"জন্য {ph0}AgentEnv ডকুমেন্টেশন{ph1} দেখুন।"
 
-#: website/public/guides/rl-environments/index.html:455
+#: website/public/guides/rl-environments/index.html:457
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Check what works"
-msgstr ""
+msgstr "কী কাজ করে তা যাচাই করুন"
 
-#: website/public/guides/rl-environments/index.html:456
+#: website/public/guides/rl-environments/index.html:458
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "For changes to be supported, record the results as well as the action: read "
@@ -15402,9 +15423,13 @@ msgid ""
 "change. Repeat with different values. For deletes, record the missing-item "
 "response and the updated list."
 msgstr ""
+"পরিবর্তন সমর্থিত হতে হলে কাজের সঙ্গে ফলাফলও রেকর্ড করুন: একটি item পড়ুন, "
+"সেটি বদলান, তারপর পরের পরিবর্তনের আগে itemটি ও তার তালিকা আবার পড়ুন। ভিন্ন "
+"মান দিয়ে আবার করুন। মুছে ফেলার ক্ষেত্রে অনুপস্থিত item-এর response ও "
+"হালনাগাদ তালিকা রেকর্ড করুন।"
 
 #. {ph0}: <code>environment-compare</code>
-#: website/public/guides/rl-environments/index.html:462
+#: website/public/guides/rl-environments/index.html:464
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15413,14 +15438,20 @@ msgid ""
 "separate recording of calls made against the app from the same starting "
 "data."
 msgstr ""
+"Startup test পাস করা, agent-এর একটি task শেষ করা এবং মূল অ্যাপের সঙ্গে মিলে "
+"যাওয়া — এগুলো আলাদা যাচাই। শেষেরটির জন্য একই শুরুর ডেটা থেকে অ্যাপের "
+"বিরুদ্ধে করা কলের আলাদা একটি রেকর্ডিং নিয়ে {ph0} ব্যবহার করুন।"
 
-#: website/public/guides/rl-environments/index.html:468
+#: website/public/guides/rl-environments/index.html:470
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
 "Before sharing the folder, review its retained response bodies and local "
 "paths. Custom headers, query values, and body tokens can remain. Credential-"
 "name warnings identify places to review; they do not remove those values."
 msgstr ""
+"ফোল্ডার শেয়ার করার আগে তার রাখা response body ও local path দেখে নিন। Custom"
+" header, query value ও body token থেকে যেতে পারে। Credential-এর নামসংক্রান্ত"
+" সতর্কতা কোথায় দেখতে হবে তা চিহ্নিত করে; সেগুলো মান মুছে দেয় না।"
 
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/agent-
 #. environments-quickstart.md" >
@@ -15428,7 +15459,7 @@ msgstr ""
 #. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/agent-
 #. environments.md" >
 #. {ph3}: </a >
-#: website/public/guides/rl-environments/index.html:474
+#: website/public/guides/rl-environments/index.html:476
 #, python-brace-format
 msgctxt "page:guides/rl-environments/index.html"
 msgid ""
@@ -15436,36 +15467,39 @@ msgid ""
 "reports and comparison commands. The {ph2}environment reference{ph3} covers "
 "direct MCP serving, state controls, and limits."
 msgstr ""
+"Coverage রিপোর্ট ও তুলনার কমান্ডের জন্য {ph0}রেকর্ডিং ও যাচাইয়ের পূর্ণ "
+"গাইড{ph1} অনুসরণ করুন। {ph2}এনভায়রনমেন্ট রেফারেন্স{ph3}-এ সরাসরি MCP "
+"serving, state নিয়ন্ত্রণ ও সীমাবদ্ধতা আছে।"
 
 #: website/public/guides/rl-environments/index.html:6
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Build RL environments with REA"
 msgstr "REA দিয়ে RL এনভায়রনমেন্ট তৈরি করুন"
 
-#: website/public/guides/rl-environments/index.html:302
+#: website/public/guides/rl-environments/index.html:304
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy environment prompt"
-msgstr ""
+msgstr "এনভায়রনমেন্টের prompt কপি করুন"
 
-#: website/public/guides/rl-environments/index.html:347
+#: website/public/guides/rl-environments/index.html:349
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy environment build command"
-msgstr ""
+msgstr "এনভায়রনমেন্ট তৈরির কমান্ড কপি করুন"
 
-#: website/public/guides/rl-environments/index.html:382
+#: website/public/guides/rl-environments/index.html:384
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy environment run command"
-msgstr ""
+msgstr "এনভায়রনমেন্ট চালানোর কমান্ড কপি করুন"
 
-#: website/public/guides/rl-environments/index.html:419
+#: website/public/guides/rl-environments/index.html:421
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Copy task prompt"
-msgstr ""
+msgstr "task-এর prompt কপি করুন"
 
-#: website/public/guides/rl-environments/index.html:507
+#: website/public/guides/rl-environments/index.html:509
 msgctxt "page:guides/rl-environments/index.html"
 msgid "Back to top"
-msgstr ""
+msgstr "উপরে ফিরে যান"
 
 #: website/public/index.html:296
 msgctxt "page:index.html"
@@ -15660,6 +15694,94 @@ msgstr ""
 msgctxt "page:showcase/index.html"
 msgid "{ph0}Read the guide{ph1} · {ph2}Watch the video{ph3}"
 msgstr "{ph0}গাইড পড়ুন{ph1} · {ph2}ভিডিও দেখুন{ph3}"
+
+#. {ph0}: <code>--client</code>
+#: website/public/get-started/index.html:637
+#, python-brace-format
+msgctxt "page:get-started/index.html"
+msgid ""
+"Use the ID with {ph0} when choosing a client explicitly. These clients are "
+"supported in npm 6.8.0 and later."
+msgstr ""
+"নির্দিষ্ট client বেছে নিতে {ph0}-এর সঙ্গে ID ব্যবহার করুন। এই clientগুলো npm"
+" 6.8.0 ও তার পরের সংস্করণে সমর্থিত।"
+
+#. {ph0}: <code>droid</code>
+#. {ph1}: <code>dsh</code>
+#. {ph2}: <code>kimi</code>
+#. {ph3}: <code>qoder</code>
+#. {ph4}: <code>trae</code>
+#. {ph5}: <code>workbuddy</code>
+#. {ph6}: <code>zcode</code>
+#. {ph7}: <code>freebuff</code>
+#: website/public/get-started/index.html:753
+#, python-brace-format
+msgctxt "page:get-started/index.html"
+msgid ""
+"{ph0}, {ph1}, {ph2}, {ph3}, {ph4}, {ph5} and {ph6} require npm 6.5.0 or "
+"later. {ph7} requires npm 6.8.0 or later."
+msgstr ""
+"{ph0}, {ph1}, {ph2}, {ph3}, {ph4}, {ph5} ও {ph6}-এর জন্য npm 6.5.0 বা তার "
+"পরের সংস্করণ লাগে। {ph7}-এর জন্য npm 6.8.0 বা তার পরের সংস্করণ লাগে।"
+
+#: website/public/guides/javascript/index.html:383
+msgctxt "page:guides/javascript/index.html"
+msgid ""
+"Recorded by REA 4.1.0 on an earlier version of the example below. The "
+"renderer has since changed; the recorded source locations accompany the API,"
+" channel and handler findings."
+msgstr ""
+"নিচের উদাহরণের আগের একটি সংস্করণে REA 4.1.0 দিয়ে রেকর্ড করা। এরপর renderer "
+"বদলেছে; API, channel ও handler-এর ফলাফলের সঙ্গে রেকর্ড করা source location "
+"দেওয়া আছে।"
+
+#. {ph0}: <strong>
+#. {ph1}: </strong>
+#: website/public/guides/native/index.html:329
+#, python-brace-format
+msgctxt "page:guides/native/index.html"
+msgid ""
+"{ph0}IDA{ph1} (Windows; macOS arm64 headless): use an existing IDA setup "
+"with an MCP registration. The macOS headless profile requires a source build"
+" or a release that includes it."
+msgstr ""
+"{ph0}IDA{ph1} (Windows; macOS arm64 headless): MCP নিবন্ধনসহ বিদ্যমান একটি "
+"IDA setup ব্যবহার করুন। macOS headless profile-এর জন্য source build বা যে "
+"release-এ এটি আছে সেটি লাগে।"
+
+#~ msgctxt "page:guides/javascript/index.html"
+#~ msgid ""
+#~ "Recorded by REA 4.1.0 on the downloadable example below. Source locations "
+#~ "accompany the API, channel and handler findings."
+#~ msgstr ""
+#~ "নিচের ডাউনলোডযোগ্য উদাহরণে REA 4.1.0 দিয়ে রেকর্ড করা। API, channel ও "
+#~ "handler-এর ফলাফলের সঙ্গে source location দেওয়া আছে।"
+
+#, python-brace-format
+#~ msgctxt "page:guides/native/index.html"
+#~ msgid ""
+#~ "{ph0}IDA{ph1} (Windows): for an existing IDA setup with an MCP registration."
+#~ msgstr "{ph0}IDA{ph1} (Windows): MCP নিবন্ধনসহ বিদ্যমান IDA setup-এর জন্য।"
+
+#, python-brace-format
+#~ msgctxt "page:get-started/index.html"
+#~ msgid ""
+#~ "The npm 6.4.0 release supports the clients below. Use the ID with {ph0} when"
+#~ " choosing a client explicitly."
+#~ msgstr ""
+#~ "npm 6.4.0 রিলিজ নিচের ক্লায়েন্টগুলো সমর্থন করে। নির্দিষ্ট ক্লায়েন্ট বেছে "
+#~ "নিতে {ph0}-এর সঙ্গে আইডিটি ব্যবহার করুন।"
+
+#, python-brace-format
+#~ msgctxt "page:get-started/index.html"
+#~ msgid ""
+#~ "Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) and "
+#~ "DeepSeek Harness ({ph4}) are available on repository main; use a source "
+#~ "build or a release containing those integrations."
+#~ msgstr ""
+#~ "Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) ও DeepSeek"
+#~ " Harness ({ph4}) রিপোজিটরির main-এ পাওয়া যায়; সোর্স বিল্ড বা এই "
+#~ "ইন্টিগ্রেশনগুলো থাকা কোনো রিলিজ ব্যবহার করুন।"
 
 #~ msgctxt "shared"
 #~ msgid ""
