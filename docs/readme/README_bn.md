@@ -19,7 +19,7 @@
 
 **[ওয়েবসাইট](https://rea.tools/bn/) · [গাইড](https://rea.tools/bn/guides/) · [শোকেস](https://rea.tools/bn/showcase/)**
 
-[দ্রুত শুরু](#দ্রুত-শুরু) · [REA কীভাবে কাজ করে](#rea-কীভাবে-কাজ-করে) · [কী কী বিশ্লেষণ করা যায়](#কী-কী-বিশ্লেষণ-করা-যায়) · [শোকেস](#শোকেস) · [RL এনভায়রনমেন্ট তৈরি করুন](#rl-এনভায়রনমেন্ট-তৈরি-করুন) · [সাধারণ প্রশ্নোত্তর](#সাধারণ-প্রশ্নোত্তর-faq) · [GNU objdump ও Rizin টুল](../reverse-engineering-tools.md) · [ডকুমেন্টেশন](#ডকুমেন্টেশন)
+[দ্রুত শুরু](#দ্রুত-শুরু) · [REA কীভাবে কাজ করে](#rea-কীভাবে-কাজ-করে) · [কী কী বিশ্লেষণ করা যায়](#কী-কী-বিশ্লেষণ-করা-যায়) · [শোকেস](#শোকেস) · [RL এনভায়রনমেন্ট তৈরি করুন](#rl-এনভায়রনমেন্ট-তৈরি-করুন) · [সাধারণ প্রশ্নোত্তর](#সাধারণ-প্রশ্নোত্তর-faq) · [ডকুমেন্টেশন](#ডকুমেন্টেশন)
 
 <code>npx rea-agents setup</code>
 
@@ -59,7 +59,7 @@
 
 REA আপনার agent-কে native বাইনারি, JavaScript ও Electron অ্যাপ, .NET assembly এবং ওয়েবসাইট পরীক্ষা করার টুলের সঙ্গে যুক্ত করে। একই টুল আপনি টার্মিনাল থেকেও ব্যবহার করতে পারেন। বিশ্লেষণ চলে আপনার নিজের কম্পিউটারে, আর প্রতিটি সিদ্ধান্তের পেছনের প্রমাণ ও সীমাবদ্ধতা ফলাফলেই থাকে।
 
-Setup আপনার agent-এ REA নিবন্ধন করে এবং মানানসই workflow নির্দেশনা ইনস্টল করে। Native বিশ্লেষণে আগে থেকে ইনস্টল করা Hopper, Ghidra বা IDA ব্যবহার করা যায়; চাইলে setup আপনার অনুমোদন নিয়ে Hopper ইনস্টল করে দিতে পারে। Static JavaScript বিশ্লেষণের জন্য কোনো native analysis engine লাগে না।
+Setup আপনার agent-এ REA নিবন্ধন করে এবং মানানসই workflow নির্দেশনা ইনস্টল করে। Native বিশ্লেষণে আগে থেকে ইনস্টল করা Hopper, Ghidra, IDA বা Kuna ব্যবহার করা যায়; চাইলে setup আপনার অনুমোদন নিয়ে Hopper ইনস্টল করে দিতে পারে। Static JavaScript বিশ্লেষণের জন্য কোনো native analysis engine লাগে না।
 
 > **[REA ওয়েবসাইট দেখুন](https://rea.tools/bn/)** — সেখানে setup নির্দেশনা, ছবিসহ গাইড এবং বাস্তব case study পাবেন।
 
@@ -80,17 +80,29 @@ npx rea-agents setup
 
 আপনার agent বেছে নিন, প্রস্তাবিত পরিবর্তনগুলো দেখে নিন এবং অনুমোদন দিন। Setup
 REA-এর MCP server ও মানানসই workflow নির্দেশনা যোগ করে, আর বিদ্যমান
-configuration-এর ব্যাকআপ রাখে। এরপর আপনার agent রিস্টার্ট করুন।
+configuration-এর ব্যাকআপ রাখে। এরপর আপনার agent রিস্টার্ট করুন। Setup নির্বাচিত
+runtime ও REA entry script সরাসরি রেকর্ড করে। Package runner-এর মাধ্যমে পেয়ে
+থাকলে তার cache entry যেন পাওয়া যায়, সেভাবে রাখুন। Package সংগ্রহের কাজটি
+টার্গেট প্রজেক্টের বাইরে একটি বিশ্বস্ত ডিরেক্টরি থেকে চালান। ইনস্টলেশন ও
+পুনরুদ্ধারের বিস্তারিত নিচের setup গাইডে আছে।
 
 Setup সমর্থন করে Claude Code, Codex, Cursor, Gemini CLI, Grok Build এবং
-[অন্যান্য agent](../installation.md#supported-agents)। Provider configuration ও
-ম্যানুয়াল MCP নিবন্ধনের জন্য [ইনস্টলেশন ও setup](../installation.md) দেখুন।
+[অন্যান্য agent](../installation.md#supported-agents)। Provider configuration,
+ম্যানুয়াল MCP নিবন্ধন এবং Claude Code/Codex plugin ইনস্টলেশনের জন্য
+[ইনস্টলেশন ও setup](../installation.md) দেখুন।
 
 Context-এর বাড়তি চাপ কমাতে MCP ডিফল্টভাবে compact input schema ব্যবহার করে। পুরো
 field নির্দেশনা ও nested validation-এর বিস্তারিত দরকার হলে আপনার MCP নিবন্ধনে
 `REA_MCP_INPUT_SCHEMA_PROFILE=full` সেট করুন। দুই profile-এই সব tool থাকে এবং
 server-এর canonical validation বজায় থাকে। বিস্তারিত জানতে MCP contracts গাইডের
 "Compact input schema profile" অংশটি দেখুন।
+
+সম্পূর্ণ output schema ডিফল্টভাবেই advertise করা হয়। আপনার client যদি পুরো
+`tools/list` frame সীমিত করে, প্রতিটি advertised output schema সীমিত রাখতে
+`REA_MCP_OUTPUT_SCHEMA_PROFILE=compact` সেট করুন, অথবা output schema একেবারে
+বাদ দিতে `off` সেট করুন। দুই সেটিংসেই server-পক্ষের canonical validation এবং
+সম্পূর্ণ structured result বজায় থাকে। MCP contracts গাইডের "Output schemas"
+অংশটি দেখুন।
 
 ### আপনার agent-কে জিজ্ঞাসা করুন
 
@@ -133,6 +145,14 @@ REA দ্রুত বদলায়, এবং নতুন release-এ প�
 rea update
 ```
 
+`rea --update` এই যাচাইকৃত workflow-এর একটি alias, এবং একই global output flag
+নেয়। অন্য command control-এর সঙ্গে মিলিয়ে চালাতে `rea update` ব্যবহার করুন।
+
+Updater কমান্ড stdout ও stderr মিলিয়ে সর্বোচ্চ 4 MiB রাখে। এর চেয়ে বড় metadata
+উত্তর কমান্ড শেষ হওয়ার পর বাতিল করা হয়; verbose ইনস্টল সীমিত diagnostics নিয়ে
+চলতে থাকে। মানুষের জন্য progress output টার্মিনালের backpressure মেনে চলে এবং
+জমা দেওয়া write শেষ হওয়া পর্যন্ত অপেক্ষা করে।
+
 Bun-এ global আপডেটের জন্য Bun 1.2.17 বা তার পরের সংস্করণ লাগবে। পুরোনো Bun
 থাকলে `rea update` চালানোর আগে নিজে Bun আপগ্রেড করে নিন।
 
@@ -170,7 +190,7 @@ REA-এর জন্য লাগবে Node.js 22.x (>=22.23.4), 24.x (>=24.22.
 | টার্গেট                   | REA কী ফেরত দেয়                                                                           | প্রয়োজনীয়তা ও গাইড                                                                                                            |
 | ----------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | ডেস্কটপ ইনস্টলেশন         | Runtime candidate, সহায়ক ফাইল, component marker ও পরবর্তী probe                              | বিল্ট-ইন সীমিত directory/header পরীক্ষা; [ডেস্কটপ অ্যাপ্লিকেশন](../desktop-applications.md)                                       |
-| Native বাইনারি            | Pseudocode, assembly, string, symbol, call ও reference                                    | Hopper, Ghidra বা IDA; [native বিশ্লেষণ](../native-investigation.md)                                                         |
+| Native বাইনারি            | Pseudocode, assembly, string, symbol, call ও reference                                    | Hopper, Ghidra, IDA বা Kuna; [native বিশ্লেষণ](../native-investigation.md)                                                   |
 | Offline ELF layout      | Section, segment, মূল symbol/relocation এবং static mitigation-এর সম্ভাব্য তালিকা                | Linux x64-এ caller-এর দেওয়া pwntools; [binary diagnostics](../binary-diagnostics.md)                                        |
 | Go বাইনারি                | Embedded compiler সংস্করণ, module, replacement ও build setting                             | বিল্ট-ইন static ELF/PE/thin Mach-O পরীক্ষা; Go ইনস্টল করার দরকার নেই                                                             |
 | GPU code object         | CUDA/HIP target, নির্বাচিত kernel-এর parameter ও resource এবং সংরক্ষিত PTX text              | বিল্ট-ইন static ELF/PE/fatbin/CUBIN/PTX পরীক্ষা; [GPU code object](../gpu-code-objects.md)                                    |
@@ -209,6 +229,11 @@ REA-এর জন্য লাগবে Node.js 22.x (>=22.23.4), 24.x (>=24.22.
 Static JavaScript ও .NET পরীক্ষা অ্যাপ্লিকেশন না চালিয়েই দেওয়া ফাইলগুলো পড়ে।
 Runtime capture আপনার user permission নিয়ে নির্বাচিত টার্গেট চালায় বা তার সঙ্গে
 interact করে; প্রতিটি runtime গাইডে এর প্রভাব বর্ণনা করা আছে।
+
+Offline native-binary পরীক্ষার জন্য REA caller-এর দেওয়া GNU objdump ও Rizin-ও
+সমর্থন করে। Provider setup, CLI কমান্ড এবং Evidence-এর সীমাবদ্ধতার জন্য
+[reverse-engineering tools গাইড](../reverse-engineering-tools.md) দেখুন। REA
+এই দুই provider-এর কোনোটিই ইনস্টল বা আপডেট করে না।
 
 <a id="choosing-a-deep-analysis-provider"></a>
 
@@ -251,12 +276,19 @@ Renderer-এর clipboard API খুঁজে বের করুন, preload �
 
 ### TH04: একটি DOS bullet-ring হিসাব উদ্ধার
 
-মূল PC-98 গেমের 16-bit instruction পরীক্ষা করুন, স্থির ও লক্ষ্যভেদী কোণের
+মূল PC-98 গেমের 16-bit instruction পরীক্ষা করুন, স্থির ও লক্ষ্য-অভিমুখী (aimed) কোণের
 হিসাব উদ্ধার করুন এবং পুনর্গঠিত C++ কোডকে ঐতিহাসিক compiler output-এর
 সঙ্গে মিলিয়ে দেখুন।
 
 [Case study পড়ুন](https://rea.tools/bn/showcase/th04/) ·
 [পুনর্গঠনের repository](https://github.com/N0zoM1z0/th04)
+
+### REA দিয়ে RL এনভায়রনমেন্ট তৈরি করুন
+
+একটি ওয়েব অ্যাপের session রেকর্ড করুন, এর API-কে tool-এ রূপান্তর করুন এবং এমন একটি এনভায়রনমেন্ট export করুন যা একটি AI agent ব্যবহার করতে পারে। AgentEnv দিয়ে এটি চালান, তারপর RL training বা মূল্যায়নের জন্য task ও reward check যোগ করুন।
+
+[গাইড পড়ুন](https://rea.tools/guides/rl-environments/) ·
+[ভিডিও দেখুন](https://x.com/reatools/status/2112574822584918075?s=20)
 
 আপনি যদি মজার কিছুতে REA ব্যবহার করে থাকেন, আমরা তা দেখতে চাই। একটি
 [issue](https://github.com/morluto/rea/issues) বা
@@ -310,11 +342,13 @@ Local MCP server সমর্থন করে এমন যেকোনো agent
 </details>
 
 <details>
-<summary><strong>আমার কি Hopper, Ghidra বা IDA লাগবে?</strong></summary>
+<summary><strong>আমার কি native analysis engine লাগবে?</strong></summary>
 
-গভীর native বিশ্লেষণে এগুলোর যেকোনো একটি ব্যবহৃত হয়। Static JavaScript ও .NET পরীক্ষা
-native analysis engine ছাড়াই কাজ করে। অনুমোদন পেলে setup Hopper ইনস্টল করতে পারে;
-Ghidra ও IDA-র ক্ষেত্রে আপনার বিদ্যমান ইনস্টলেশন ব্যবহৃত হয়। [Provider setup](../installation.md#hopper) দেখুন।
+গভীর native বিশ্লেষণে টার্গেট ও কাজের ধরন অনুযায়ী Hopper, Ghidra, IDA বা Kuna
+ব্যবহৃত হয়। Static JavaScript ও .NET পরীক্ষা native analysis engine ছাড়াই কাজ
+করে। অনুমোদন পেলে setup Hopper ইনস্টল করতে পারে; Ghidra, IDA ও Kuna-র ক্ষেত্রে
+আপনার বিদ্যমান ইনস্টলেশন ব্যবহৃত হয়। Option ও সমর্থিত টার্গেটের জন্য
+[Provider setup](../installation.md#hopper) দেখুন।
 
 </details>
 
@@ -394,7 +428,7 @@ Agent ব্যবহার করলে [setup রিফ্রেশ](#rea-আ�
 
 ## Star-এর ইতিহাস
 
-🎉 **300,000 GitHub star — সবাইকে ধন্যবাদ!**
+🎉 **400,000 GitHub star — সবাইকে ধন্যবাদ!**
 
 যাঁরা REA ব্যবহার করছেন, bug রিপোর্ট করছেন, ফিচারের অনুরোধ জানাচ্ছেন, build test করছেন এবং fix দিয়ে অবদান রাখছেন — সবাইকে ধন্যবাদ।
 
