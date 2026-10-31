@@ -19,27 +19,35 @@ export const resolveInvestigationEvidenceClosure = (
   inlineIds: ReadonlySet<string> = new Set(),
 ): Result<string[], EvidenceIntegrityError> => {
   const lookup = reader.evidenceForAnalysis.bind(reader);
+  const resolve = (evidenceId: string) =>
+    resolveEvidenceInput(
+      { kind: "retained-evidence", evidence_id: evidenceId },
+      lookup,
+    );
+  // Check the caller's inline roots before following any links, so a missing
+  // inline root is reported the same way whatever order its ID sorts in.
+  for (const evidenceId of uniqueSorted(
+    seedIds.filter((id) => inlineIds.has(id)),
+  )) {
+    const evidence = resolve(evidenceId);
+    if (!evidence.ok && evidence.error.reason === "missing")
+      return err(
+        new EvidenceReferenceError(
+          evidenceId,
+          "missing",
+          evidence.error.expected,
+          evidence.error.actual,
+          true,
+        ),
+      );
+  }
   const visited = new Set<string>();
   const pending = [...seedIds];
   while (pending.length > 0) {
     const evidenceId = pending.pop();
     if (evidenceId === undefined || visited.has(evidenceId)) continue;
-    const evidence = resolveEvidenceInput(
-      { kind: "retained-evidence", evidence_id: evidenceId },
-      lookup,
-    );
-    if (!evidence.ok)
-      return evidence.error.reason === "missing" && inlineIds.has(evidenceId)
-        ? err(
-            new EvidenceReferenceError(
-              evidenceId,
-              "missing",
-              evidence.error.expected,
-              evidence.error.actual,
-              true,
-            ),
-          )
-        : evidence;
+    const evidence = resolve(evidenceId);
+    if (!evidence.ok) return evidence;
     visited.add(evidenceId);
     pending.push(...evidence.value.evidence_links);
   }

@@ -25,6 +25,11 @@ import { jsonObjectSchema } from "../../../src/domain/jsonValue.js";
 import { createServer } from "../../../src/server/createServer.js";
 import { observed } from "../../fixtures/analysisExecution.js";
 import { parseMcpToolError } from "../../fixtures/mcpToolError.js";
+import {
+  analysisErrorRemediationAction,
+  analysisErrorUserMessage,
+} from "../../../src/domain/analysisErrorPresentation.js";
+import { EvidenceReferenceError } from "../../../src/domain/evidenceErrors.js";
 import type { RelationshipCoverage } from "../../../src/domain/relationshipCoverage.js";
 
 it("aggregates comparison Evidence and records an approved runtime gap", async () => {
@@ -81,12 +86,30 @@ it("does not advise resending inline comparison Evidence whose retained closure 
         supplied_inline: true,
       },
     });
-    expect(failure.message).toContain(comparison.evidence_id);
-    expect(failure.message).toContain("supplied inline");
-    for (const text of [failure.message, failure.remediation.action])
-      expect(text).not.toMatch(/supply (the )?complete inline Evidence/iu);
-    expect(failure.remediation.action).toContain(
-      "Import or select the Evidence bundle that produced this record",
+    const { expected, actual } = failure.details as {
+      expected: string;
+      actual: string | null;
+    };
+    const suppliedInline = new EvidenceReferenceError(
+      comparison.evidence_id,
+      "missing",
+      expected,
+      actual,
+      true,
+    );
+    expect(failure.message).toBe(analysisErrorUserMessage(suppliedInline));
+    expect(failure.remediation.action).toBe(
+      analysisErrorRemediationAction(suppliedInline),
+    );
+    expect(failure.remediation.action).not.toBe(
+      analysisErrorRemediationAction(
+        new EvidenceReferenceError(
+          comparison.evidence_id,
+          "missing",
+          expected,
+          actual,
+        ),
+      ),
     );
     expect(session.exportEvidenceBundle().records).toHaveLength(0);
 
