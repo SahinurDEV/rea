@@ -287,7 +287,7 @@ Renderer-এর clipboard API খুঁজে বের করুন, preload �
 
 একটি ওয়েব অ্যাপের session রেকর্ড করুন, এর API-কে tool-এ রূপান্তর করুন এবং এমন একটি এনভায়রনমেন্ট export করুন যা একটি AI agent ব্যবহার করতে পারে। AgentEnv দিয়ে এটি চালান, তারপর RL training বা মূল্যায়নের জন্য task ও reward check যোগ করুন।
 
-[গাইড পড়ুন](https://rea.tools/guides/rl-environments/) ·
+[গাইড পড়ুন](https://rea.tools/bn/guides/rl-environments/) ·
 [ভিডিও দেখুন](https://x.com/reatools/status/2112574822584918075?s=20)
 
 আপনি যদি মজার কিছুতে REA ব্যবহার করে থাকেন, আমরা তা দেখতে চাই। একটি
@@ -326,7 +326,7 @@ agent-env run ./my-env
 
 REA একটি চালানোযোগ্য এনভায়রনমেন্ট export করে, সঙ্গে একটি সাধারণ test থাকে যা যাচাই করে এটি চালু হয় এবং সাড়া দেয়। আপনার RL framework-এর সঙ্গে এটি ব্যবহার করে task-এর লক্ষ্য নির্ধারণ করুন, reward check যোগ করুন এবং training চালান।
 
-[এনভায়রনমেন্ট তৈরির গাইড](https://rea.tools/guides/rl-environments/) ·
+[এনভায়রনমেন্ট তৈরির গাইড](https://rea.tools/bn/guides/rl-environments/) ·
 [এনভায়রনমেন্ট রেফারেন্স](../agent-environments.md) ·
 [X-এ ডেমো দেখুন](https://x.com/reatools/status/2112574822584918075?s=20)
 

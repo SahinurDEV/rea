@@ -14,7 +14,10 @@ import {
   type InventorySet,
 } from "./artifactInventoryEvidence.js";
 import {
+  dfuSeElementDeclaration,
+  espFlashPartitionDeclaration,
   espImageSegmentDeclaration,
+  fitImageDeclaration,
   nodeSeaEntryDeclaration,
   pyInstallerEntryDeclaration,
 } from "./artifactFormatMetadata.js";
@@ -464,6 +467,10 @@ interface OccurrenceMetadata {
   readonly asarPacking: MetadataComparison;
   readonly nodeSea: MetadataComparison;
   readonly espImageSegment: MetadataComparison;
+  readonly espFlashPartition: MetadataComparison;
+  readonly fitImage: MetadataComparison;
+  readonly fitImageAvailability: MetadataComparison;
+  readonly dfuSeElement: MetadataComparison;
   readonly pyInstaller: MetadataComparison;
 }
 
@@ -471,7 +478,10 @@ interface OccurrenceMetadata {
 const declarationChanged = (metadata: OccurrenceMetadata): boolean =>
   metadata.asarPacking === "changed" ||
   metadata.nodeSea === "changed" ||
-  metadata.espImageSegment === "changed";
+  metadata.espImageSegment === "changed" ||
+  metadata.espFlashPartition === "changed" ||
+  metadata.fitImage === "changed" ||
+  metadata.dfuSeElement === "changed";
 
 /** Unknown classifications and absent node metadata cannot establish a difference. */
 const differsWithUnknown = (
@@ -550,7 +560,10 @@ const compareOptionalMetadata = <T>(
 const occurrenceMetadata = (input: OccurrencePair): OccurrenceMetadata => {
   const left = input.leftOccurrence;
   const right = input.rightOccurrence;
+  const fit = compareFitImageDeclarations(input);
   return {
+    fitImage: fit.declaration,
+    fitImageAvailability: fit.availability,
     asarPacking: compareOptionalMetadata(
       left?.unpacked,
       right?.unpacked,
@@ -574,11 +587,73 @@ const occurrenceMetadata = (input: OccurrencePair): OccurrenceMetadata => {
         : undefined,
       espImageSegmentDeclaration,
     ),
+    dfuSeElement: compareOptionalMetadata(
+      left?.format_metadata?.kind === "dfuse-element"
+        ? left.format_metadata
+        : undefined,
+      right?.format_metadata?.kind === "dfuse-element"
+        ? right.format_metadata
+        : undefined,
+      dfuSeElementDeclaration,
+    ),
+    espFlashPartition: compareOptionalMetadata(
+      left?.format_metadata?.kind === "esp-flash-partition"
+        ? left.format_metadata
+        : undefined,
+      right?.format_metadata?.kind === "esp-flash-partition"
+        ? right.format_metadata
+        : undefined,
+      espFlashPartitionDeclaration,
+    ),
     pyInstaller: compareOptionalMetadata(
       isPyInstallerEntry(left) ? left.format_metadata : undefined,
       isPyInstallerEntry(right) ? right.format_metadata : undefined,
       pyInstallerEntryDeclaration,
     ),
+  };
+};
+
+/** Keep known FIT changes even when another declaration is unavailable. */
+const compareFitImageDeclarations = ({
+  leftOccurrence: left,
+  rightOccurrence: right,
+}: OccurrencePair): {
+  readonly declaration: MetadataComparison;
+  readonly availability: MetadataComparison;
+} => {
+  const lm =
+    left?.format_metadata?.kind === "fit-image"
+      ? left.format_metadata
+      : undefined;
+  const rm =
+    right?.format_metadata?.kind === "fit-image"
+      ? right.format_metadata
+      : undefined;
+  if (lm === undefined || rm === undefined) {
+    const result = compareOptionalMetadata(lm, rm, fitImageDeclaration);
+    return {
+      declaration: result,
+      availability: result === "unknown" ? "unknown" : "unchanged",
+    };
+  }
+  const ld = fitImageDeclaration(lm);
+  const rd = fitImageDeclaration(rm);
+  const keys = Object.keys(ld) as (keyof typeof ld)[];
+  let changed = false;
+  let unavailable = false;
+  for (const key of keys) {
+    if (
+      lm.unreadable_fields.some((field) => field === key) ||
+      rm.unreadable_fields.some((field) => field === key)
+    ) {
+      unavailable = true;
+      continue;
+    }
+    if (ld[key] !== rd[key]) changed = true;
+  }
+  return {
+    declaration: changed ? "changed" : "unchanged",
+    availability: unavailable ? "unknown" : "unchanged",
   };
 };
 
