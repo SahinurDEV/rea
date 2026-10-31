@@ -23,6 +23,7 @@ export const resolveInvestigationEvidenceClosure = (
     resolveEvidenceInput(
       { kind: "retained-evidence", evidence_id: evidenceId },
       lookup,
+      "retained-closure",
     );
   // Check the caller's inline roots before following any links, so a missing
   // inline root is reported the same way whatever order its ID sorts in.
@@ -32,13 +33,12 @@ export const resolveInvestigationEvidenceClosure = (
     const evidence = resolve(evidenceId);
     if (!evidence.ok && evidence.error.reason === "missing")
       return err(
-        new EvidenceReferenceError(
-          evidenceId,
-          "missing",
-          evidence.error.expected,
-          evidence.error.actual,
-          true,
-        ),
+        new EvidenceReferenceError(evidenceId, "missing", {
+          expected: evidence.error.expected,
+          actual: evidence.error.actual,
+          referenceScope: "retained-closure",
+          suppliedInline: true,
+        }),
       );
   }
   const visited = new Set<string>();

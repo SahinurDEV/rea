@@ -34,9 +34,7 @@ import type { RelationshipCoverage } from "../../../src/domain/relationshipCover
 
 it("aggregates comparison Evidence and records an approved runtime gap", async () => {
   const { session, server, client } = await connected();
-  const comparison =
-    INVESTIGATION_EXAMPLES.find_changed_behavior.comparisons[0];
-  if (comparison === undefined) throw new Error("missing comparison fixture");
+  const comparison = FUNCTION_COMPARISON_EVIDENCE;
   for (const evidence of [
     FUNCTION_COMPARISON_EXAMPLE.left,
     FUNCTION_COMPARISON_EXAMPLE.right,
@@ -56,6 +54,19 @@ it("aggregates comparison Evidence and records an approved runtime gap", async (
       provider: { id: "rea-changed-behavior" },
       normalized_result: { behavior_status: "unknown" },
     });
+    const referenced = await client.callTool({
+      name: "find_changed_behavior",
+      arguments: {
+        comparisons: [
+          {
+            kind: "retained-evidence",
+            evidence_id: comparison.evidence_id,
+          },
+        ],
+      },
+    });
+    expect(referenced.isError, JSON.stringify(referenced)).not.toBe(true);
+    expect(inlineEvidence(referenced.structuredContent)).toEqual(evidence);
     expect(session.listUnknowns({ domain: "changed-behavior" })).toMatchObject([
       {
         question: `Did both versions behave the same under a complete controlled replay? (Evidence ${evidence.evidence_id})`,
@@ -68,9 +79,7 @@ it("aggregates comparison Evidence and records an approved runtime gap", async (
 
 it("does not advise resending inline comparison Evidence whose retained closure is missing", async () => {
   const { session, server, client } = await connected();
-  const comparison =
-    INVESTIGATION_EXAMPLES.find_changed_behavior.comparisons[0];
-  if (comparison === undefined) throw new Error("missing comparison fixture");
+  const comparison = FUNCTION_COMPARISON_EVIDENCE;
   try {
     const response = await client.callTool({
       name: "find_changed_behavior",
@@ -93,9 +102,12 @@ it("does not advise resending inline comparison Evidence whose retained closure 
     const suppliedInline = new EvidenceReferenceError(
       comparison.evidence_id,
       "missing",
-      expected,
-      actual,
-      true,
+      {
+        expected,
+        actual,
+        referenceScope: "retained-closure",
+        suppliedInline: true,
+      },
     );
     expect(failure.message).toBe(analysisErrorUserMessage(suppliedInline));
     expect(failure.remediation.action).toBe(
@@ -103,12 +115,11 @@ it("does not advise resending inline comparison Evidence whose retained closure 
     );
     expect(failure.remediation.action).not.toBe(
       analysisErrorRemediationAction(
-        new EvidenceReferenceError(
-          comparison.evidence_id,
-          "missing",
+        new EvidenceReferenceError(comparison.evidence_id, "missing", {
           expected,
           actual,
-        ),
+          referenceScope: "retained-closure",
+        }),
       ),
     );
     expect(session.exportEvidenceBundle().records).toHaveLength(0);
@@ -761,6 +772,170 @@ it("keeps an aggregate function reconstruction unknown while a constituent dimen
     expect(
       inlineEvidence(overallOnly.structuredContent).normalized_result,
     ).toMatchObject({ status: "unknown", summary: { unknown: 1 } });
+  } finally {
+    await close(session, server, client);
+  }
+});
+
+it.each([
+  {
+    name: "empty selection",
+    input: { comparisons: [] },
+    code: "invalid_request",
+  },
+  {
+    name: "missing record",
+    input: {
+      comparisons: [
+        { kind: "retained-evidence", evidence_id: `ev_${"f".repeat(64)}` },
+      ],
+    },
+    code: "evidence_integrity_mismatch",
+  },
+  {
+    name: "wrong operation",
+    input: {
+      comparisons: [
+        {
+          kind: "retained-evidence",
+          evidence_id: FUNCTION_COMPARISON_EXAMPLE.left.evidence_id,
+        },
+      ],
+    },
+    code: "invalid_request",
+  },
+  {
+    name: "mixed duplicate identity",
+    input: {
+      comparisons: [
+        FUNCTION_COMPARISON_EVIDENCE,
+        {
+          kind: "retained-evidence",
+          evidence_id: FUNCTION_COMPARISON_EVIDENCE.evidence_id,
+        },
+      ],
+    },
+    code: "invalid_request",
+  },
+  {
+    name: "malformed envelope",
+    input: { comparisons: "not-an-array" },
+    code: "invalid_request",
+  },
+  {
+    name: "malformed reference",
+    input: {
+      comparisons: [{ kind: "retained-evidence", evidence_id: "bad-id" }],
+    },
+    code: "invalid_request",
+  },
+  {
+    name: "damaged inline observation",
+    input: {
+      comparisons: [
+        {
+          kind: "retained-evidence",
+          evidence_id: FUNCTION_COMPARISON_EVIDENCE.evidence_id,
+        },
+        {
+          ...FUNCTION_COMPARISON_EVIDENCE,
+          normalized_result: { tampered: true },
+        },
+      ],
+    },
+    code: "evidence_integrity_mismatch",
+  },
+])(
+  "preserves explicit failure for $name in reference aggregation",
+  async ({ input, code }) => {
+    let providerCalls = 0;
+    const { session, server, client } = await connected({
+      execute: async () => {
+        providerCalls++;
+        throw new Error("Retained aggregation must not query a provider");
+      },
+    });
+    try {
+      for (const source of [
+        FUNCTION_COMPARISON_EXAMPLE.left,
+        FUNCTION_COMPARISON_EXAMPLE.right,
+        FUNCTION_COMPARISON_EVIDENCE,
+      ])
+        expect(session.recordEvidence(source).ok).toBe(true);
+      const response = await client.callTool({
+        name: "find_changed_behavior",
+        arguments: input,
+      });
+      expect(parseMcpToolError(response).error.code).toBe(code);
+      expect(providerCalls).toBe(0);
+    } finally {
+      await close(session, server, client);
+    }
+  },
+);
+
+it("requires the original source closure even when the comparison reference exists", async () => {
+  const { session, server, client } = await connected();
+  try {
+    expect(session.recordEvidence(FUNCTION_COMPARISON_EVIDENCE).ok).toBe(true);
+    const response = await client.callTool({
+      name: "find_changed_behavior",
+      arguments: {
+        comparisons: [
+          {
+            kind: "retained-evidence",
+            evidence_id: FUNCTION_COMPARISON_EVIDENCE.evidence_id,
+          },
+        ],
+      },
+    });
+    expect(parseMcpToolError(response).error).toMatchObject({
+      code: "evidence_integrity_mismatch",
+      details: { reason: "missing", reference_scope: "retained-closure" },
+    });
+  } finally {
+    await close(session, server, client);
+  }
+});
+
+it("preserves mixed inline and retained runtime/static comparison semantics", async () => {
+  const { session, server, client } = await connected();
+  try {
+    for (const source of [
+      FUNCTION_COMPARISON_EXAMPLE.left,
+      FUNCTION_COMPARISON_EXAMPLE.right,
+      FUNCTION_COMPARISON_EVIDENCE,
+      PROCESS_CAPTURE_REFERENCE,
+      PROCESS_CAPTURE_RECONSTRUCTION,
+      PROCESS_COMPARISON_EVIDENCE,
+    ])
+      expect(session.recordEvidence(source).ok).toBe(true);
+    const complete = await client.callTool({
+      name: "find_changed_behavior",
+      arguments: {
+        comparisons: [
+          FUNCTION_COMPARISON_EVIDENCE,
+          PROCESS_COMPARISON_EVIDENCE,
+        ],
+      },
+    });
+    expect(complete.isError, JSON.stringify(complete)).not.toBe(true);
+    const mixed = await client.callTool({
+      name: "find_changed_behavior",
+      arguments: {
+        comparisons: [
+          FUNCTION_COMPARISON_EVIDENCE,
+          {
+            kind: "retained-evidence",
+            evidence_id: PROCESS_COMPARISON_EVIDENCE.evidence_id,
+          },
+        ],
+      },
+    });
+    expect(mixed.isError, JSON.stringify(mixed)).not.toBe(true);
+    expect(inlineEvidence(mixed.structuredContent)).toEqual(
+      inlineEvidence(complete.structuredContent),
+    );
   } finally {
     await close(session, server, client);
   }
