@@ -77,6 +77,7 @@ const registerChangedBehavior = (
         const closure = resolveInvestigationEvidenceClosure(
           session,
           result.evidence_links,
+          new Set(comparisonEvidenceIds),
         );
         if (!closure.ok)
           return server.delivery.toCallToolResult(closure, contract);
@@ -138,9 +139,13 @@ const registerCallPath = (
         contract.name,
         context.mcpReq.signal,
         async () => {
+          const inlineIds = input.functions.map(
+            ({ evidence_id }) => evidence_id,
+          );
           const closure = resolveInvestigationEvidenceClosure(
             session,
-            input.functions.map(({ evidence_id }) => evidence_id),
+            inlineIds,
+            new Set(inlineIds),
           );
           if (!closure.ok)
             return server.delivery.toCallToolResult(closure, contract);
@@ -211,12 +216,14 @@ const registerStaticRuntime = (
         contract.name,
         context.mcpReq.signal,
         async () => {
+          const comparisons = [
+            ...input.static_comparisons,
+            ...input.runtime_comparisons,
+          ];
           const closure = resolveInvestigationEvidenceClosure(
             session,
-            comparisonClosure([
-              ...input.static_comparisons,
-              ...input.runtime_comparisons,
-            ]),
+            comparisonClosure(comparisons),
+            new Set(comparisons.map(({ evidence_id }) => evidence_id)),
           );
           if (!closure.ok)
             return server.delivery.toCallToolResult(closure, contract);

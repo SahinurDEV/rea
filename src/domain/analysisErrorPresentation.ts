@@ -138,6 +138,8 @@ export const analysisErrorRemediationAction = (
     return error.diagnosticType === "invalid_request"
       ? "Correct the reported address, document, or arguments and retry."
       : "Review the Hopper diagnostic details and correct the request or target; run `rea doctor` if the provider itself is failing. Repeating the unchanged request is not expected to succeed.";
+  if (error instanceof EvidenceReferenceError && error.suppliedInline)
+    return "Import or select the Evidence bundle that produced this record, or re-run its producer in this session, then retry the same request. Supplying the same inline Evidence again does not restore its retained closure. close_binary clears a server session's retained records.";
   if (error instanceof EvidenceReferenceError)
     return "Use an exact Evidence reference available from the selected source, supply the complete inline Evidence, re-run its producer, or select/import its Evidence bundle. close_binary clears a server session's retained records.";
   if (
@@ -382,6 +384,8 @@ export const analysisErrorUserMessage = (error: AnalysisError): string => {
   const standardMessage = standardErrorMessage(error._tag);
   if (standardMessage !== undefined) return standardMessage;
   if (error instanceof ArtifactOperationError) return artifactMessage(error);
+  if (error instanceof EvidenceReferenceError && error.suppliedInline)
+    return `Evidence ${error.evidenceId} was supplied inline, but this session does not retain it or its linked Evidence closure. Import or select its originating bundle, or re-run its producer, before using it here.`;
   if (error instanceof EvidenceReferenceError)
     return error.reason === "missing"
       ? `Evidence ${error.evidenceId} is not available from the selected source. Supply complete inline Evidence, re-run its producer, or select/import its bundle before using this reference.`

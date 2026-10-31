@@ -381,6 +381,7 @@ const requestErrorDetails = (
       reason: error.reason,
       expected: error.expected,
       actual: error.actual,
+      ...(error.suppliedInline ? { supplied_inline: true } : {}),
     };
   if (error instanceof EvidenceIntegrityError) return { reason: error.message };
   return undefined;

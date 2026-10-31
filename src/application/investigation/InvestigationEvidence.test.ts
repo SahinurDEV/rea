@@ -89,3 +89,32 @@ it("rejects a lookup that returns another semantic Evidence identity", () => {
     },
   });
 });
+
+it("marks a missing caller-supplied inline record without changing other missing links", () => {
+  const records = new InvestigationRecords();
+  const leaf = observation("/leaf");
+  const root = observation("/root", [leaf.evidence_id]);
+  const inline = new Set([root.evidence_id]);
+  expect(
+    resolveInvestigationEvidenceClosure(records, [root.evidence_id], inline),
+  ).toMatchObject({
+    ok: false,
+    error: {
+      reason: "missing",
+      evidenceId: root.evidence_id,
+      suppliedInline: true,
+    },
+  });
+  const added = records.recordEvidence(root);
+  if (!added.ok) throw added.error;
+  expect(
+    resolveInvestigationEvidenceClosure(records, [root.evidence_id], inline),
+  ).toMatchObject({
+    ok: false,
+    error: {
+      reason: "missing",
+      evidenceId: leaf.evidence_id,
+      suppliedInline: false,
+    },
+  });
+});

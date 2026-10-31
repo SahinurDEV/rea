@@ -24,6 +24,7 @@ import {
 import { jsonObjectSchema } from "../../../src/domain/jsonValue.js";
 import { createServer } from "../../../src/server/createServer.js";
 import { observed } from "../../fixtures/analysisExecution.js";
+import { parseMcpToolError } from "../../fixtures/mcpToolError.js";
 import type { RelationshipCoverage } from "../../../src/domain/relationshipCoverage.js";
 
 it("aggregates comparison Evidence and records an approved runtime gap", async () => {
@@ -55,6 +56,51 @@ it("aggregates comparison Evidence and records an approved runtime gap", async (
         question: `Did both versions behave the same under a complete controlled replay? (Evidence ${evidence.evidence_id})`,
       },
     ]);
+  } finally {
+    await close(session, server, client);
+  }
+}, 10_000);
+
+it("does not advise resending inline comparison Evidence whose retained closure is missing", async () => {
+  const { session, server, client } = await connected();
+  const comparison =
+    INVESTIGATION_EXAMPLES.find_changed_behavior.comparisons[0];
+  if (comparison === undefined) throw new Error("missing comparison fixture");
+  try {
+    const response = await client.callTool({
+      name: "find_changed_behavior",
+      arguments: { comparisons: [comparison] },
+    });
+    expect(response.isError).toBe(true);
+    const failure = parseMcpToolError(response).error;
+    expect(failure).toMatchObject({
+      code: "evidence_integrity_mismatch",
+      details: {
+        evidence_id: comparison.evidence_id,
+        reason: "missing",
+        supplied_inline: true,
+      },
+    });
+    expect(failure.message).toContain(comparison.evidence_id);
+    expect(failure.message).toContain("supplied inline");
+    for (const text of [failure.message, failure.remediation.action])
+      expect(text).not.toMatch(/supply (the )?complete inline Evidence/iu);
+    expect(failure.remediation.action).toContain(
+      "Import or select the Evidence bundle that produced this record",
+    );
+    expect(session.exportEvidenceBundle().records).toHaveLength(0);
+
+    for (const evidence of [
+      FUNCTION_COMPARISON_EXAMPLE.left,
+      FUNCTION_COMPARISON_EXAMPLE.right,
+      comparison,
+    ])
+      expect(session.recordEvidence(evidence).ok).toBe(true);
+    const retried = await client.callTool({
+      name: "find_changed_behavior",
+      arguments: { comparisons: [comparison] },
+    });
+    expect(retried.isError, JSON.stringify(retried)).not.toBe(true);
   } finally {
     await close(session, server, client);
   }

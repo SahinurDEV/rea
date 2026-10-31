@@ -53,6 +53,11 @@ export class EvidenceReferenceError extends EvidenceIntegrityError {
       | "identity_mismatch",
     readonly expected: string,
     readonly actual: string | null,
+    /**
+     * The caller supplied this record inline, so supplying it again cannot
+     * provide the missing retained closure.
+     */
+    readonly suppliedInline = false,
   ) {
     super(`Evidence reference ${reason}: ${evidenceId}`);
   }
